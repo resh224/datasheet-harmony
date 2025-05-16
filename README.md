@@ -1,2 +1,3 @@
 # datasheet-harmony
-Datasheet Harmony repo
+
+Datasheet Harmony repository.  Examples for JEDEC to EDS harmonization

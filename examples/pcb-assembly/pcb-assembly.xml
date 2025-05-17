@@ -37,24 +37,24 @@
             
             <!-- Layer Stackup Details -->
             <LayerStackup>
-            <ConductiveLayers>12</ConductiveLayers>
-            <DielectricMaterial>FR-4</DielectricMaterial>
-            <ImpedanceControl>50Ω ±10%</ImpedanceControl>
+                <ConductiveLayers>12</ConductiveLayers>
+                <DielectricMaterial>FR-4</DielectricMaterial>
+                <ImpedanceControl>50Ω ±10%</ImpedanceControl>
             </LayerStackup>
 
             <!-- Assembly Process Details -->
             <AssemblyProcess>
-            <ComponentPlacementAccuracy>±0.025mm</ComponentPlacementAccuracy>
-            <ReflowProfile>Pb-Free SAC305</ReflowProfile>
+                <ComponentPlacementAccuracy>±0.025mm</ComponentPlacementAccuracy>
+                <ReflowProfile>Pb-Free SAC305</ReflowProfile>
             </AssemblyProcess>
         </PCBAssemblyModels>
     </GeneratedECADModelsSection>
 
     <!-- Document Provenance -->
     <DocumentProvenance>
-    <Author>ProvenanceChain Inc.</Author>
-    <RevisionDate>2025-04-15</RevisionDate>
-    <DigitalSignature>sha256-abc123...</DigitalSignature>
+        <Author>Provenance Chain Network.</Author>
+        <RevisionDate>2025-04-15</RevisionDate>
+        <DigitalSignature>sha256-abc123...</DigitalSignature>
     </DocumentProvenance>
 
 </PartModel>

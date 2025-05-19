@@ -1,0 +1,141 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "jedec": "http://jedec.org/ns/JEP30#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "id": "@id",
+        "type": "@type",
+        "name": "schema:name",
+        "description": "schema:description",
+        "manufacturer": "schema:manufacturer",
+        "partNumber": "jedec:partNumber",
+        "electricalParameters": "jedec:electricalParameters",
+        "terminal": "jedec:terminal",
+        "differentialPair": "jedec:differentialPair",
+        "logicalGroup": "jedec:logicalGroup"
+    },
+    "@graph": [
+        {
+            "id": "urn:ti:dac3484",
+            "type": "schema:Product",
+            "manufacturer": {
+                "id": "urn:manufacturer:ti",
+                "name": "TEXAS INSTRUMENTS",
+                "manufacturerCode": "TI"
+            },
+            "partNumber": [
+                "DAC3484IZAY",
+                "DAC3484IZAYR"
+            ],
+            "package": {
+                "packageType": "NFBGA",
+                "packageCode": "ZAY196",
+                "terminalCount": 196,
+                "dimensions": "12.1mm x 12.1mm x 1.4mm"
+            },
+            "electricalParameters": [
+                {
+                    "symbol": "IOUT_FS",
+                    "symbolDescription": "Full-scale output current",
+                    "value": {
+                        "nominal": 20,
+                        "min": 10,
+                        "max": 30,
+                        "unit": "mA"
+                    },
+                    "testCondition": "Nominal supplies"
+                },
+                {
+                    "symbol": "TA",
+                    "symbolDescription": "Operating temperature range",
+                    "value": {
+                        "min": -40,
+                        "max": 85,
+                        "unit": "°C"
+                    }
+                },
+                {
+                    "symbol": "P",
+                    "symbolDescription": "Power dissipation",
+                    "value": {
+                        "nominal": 1270,
+                        "max": 1320,
+                        "unit": "mW"
+                    },
+                    "testCondition": "IOUT_FS=20mA, f_DAC=1.25GSPS"
+                }
+            ],
+            "terminal": [
+                {
+                    "terminalName": "AVDD",
+                    "terminalNumber": [
+                        "D10",
+                        "E11",
+                        "F11",
+                        "G11",
+                        "H11",
+                        "J11",
+                        "K11",
+                        "L10"
+                    ],
+                    "description": "Analog supply voltage (3.3V)"
+                },
+                {
+                    "terminalName": "ALARM",
+                    "terminalNumber": [
+                        "N12"
+                    ],
+                    "description": "CMOS output for alarm condition (active low)"
+                },
+                {
+                    "terminalName": "D0P",
+                    "terminalNumber": "A1",
+                    "description": "LVDS positive input data bit 0"
+                },
+                {
+                    "terminalName": "D0N",
+                    "terminalNumber": "A2",
+                    "description": "LVDS negative input data bit 0"
+                }
+                // 192 additional terminals following same pattern
+            ],
+            "differentialPair": [
+                {
+                    "name": "D0",
+                    "positiveTerminal": "D0P",
+                    "negativeTerminal": "D0N",
+                    "description": "LVDS DDR data bits 0-15 with 100Ω internal termination"
+                },
+                {
+                    "name": "DATACLK",
+                    "positiveTerminal": "CLKP",
+                    "negativeTerminal": "CLKN",
+                    "description": "Differential data clock input"
+                }
+                // Additional differential pairs for D1-D15, SYNC, etc.
+            ],
+            "logicalGroup": [
+                {
+                    "name": "Data Bus",
+                    "terminals": [
+                        "D0P",
+                        "D0N",
+                        "D1P",
+                        "D1N", ...,
+                        "D15P",
+                        "D15N"
+                    ]
+                },
+                {
+                    "name": "Clock Network",
+                    "terminals": [
+                        "CLKP",
+                        "CLKN",
+                        "SYNCP",
+                        "SYNCN"
+                    ]
+                }
+            ]
+        }
+    ]
+}

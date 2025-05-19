@@ -1,0 +1,23 @@
+{
+  "componentID": {
+    "partType": "dac",
+    "manufacturer": "Texas Instruments",
+    "componentName": "DAC3484IZ",
+    "orderableMPN": ["DAC3484IZAYR"]
+  },
+  "coreProperties": {
+    "partType": "dac",
+    "digitalResolution": null,
+    "offsetError": null,
+    "gainError": null,
+    "integralNonlinearity": null,
+    "differentialNonlinearity": null,
+    "settlingTime": null,
+    "sampleRate": null,
+    "interface": null,
+    "outputType": "differential",
+    "outputChannelCount": null,
+    "currentConsumption": null
+  }
+}
+

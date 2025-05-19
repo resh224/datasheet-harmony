@@ -1,0 +1,2849 @@
+<!-- edited with XMLSpy v2024 rel. 2 (x64) (https://www.altova.com) by Justin Bushue (Siemens) -->
+<JEP30:PartModel
+	xmlns:JEP30="http://JEDEC.org/PartModel"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://JEDEC.org/PartModel https://www.jedec.org/sites/default/files/jep30partmodel/v5-0-0/JEP30-10v5-0-0.xsd"
+	ComplianceToPartModelSchemaVersion="5.0.0"
+	PartModelContentRevision="1.0">
+	<PartDataChangedTimestamp>2024-03-08T10:00:00Z</PartDataChangedTimestamp>
+	<Manufacturer-Array>
+		<Manufacturer>
+			<ID>Manufacturer ID 1</ID>
+			<ManufacturerCode>TI</ManufacturerCode>
+			<ManufacturerIdentity>
+				<Name>TEXAS INSTRUMENTS</Name>
+			</ManufacturerIdentity>
+		</Manufacturer>
+	</Manufacturer-Array>
+	<ManufacturerPartNumber-Array>
+		<ManufacturerPartNumbers>
+			<ID>Manufacturer Part Numbers ID 1</ID>
+			<OrderablePartNumber>
+				<ID>Orderable Part Number ID 1</ID>
+				<Name>DAC3484 Quad-Channel, 16-Bit, 1.25 GSPS Digital-to-Analog Converter (DAC)</Name>
+				<Version>Revised Nov 2015</Version>
+				<BasePartNumber>DAC3484</BasePartNumber>
+				<PartDescription>The DAC3484 is a very low power, high dynamic range, quad-channel, 16-bit digital-to-analog converter (DAC) with a sample rate as high as 1.25 GSPS.
+
+The device includes features that simplify the design of complex transmit architectures: 2× to 16× digital interpolation filters with over 90dB of stop-band attenuation simplify the data interface and reconstruction filters. Independent complex mixers allow flexible carrier placement. A high-performance low jitter clock multiplier simplifies clocking of the device without significant impact on the dynamic range. The digital Quadrature Modulator Correction (QMC) enables complete IQ compensation for gain, offset, phase and group delay between channels in direct up-conversion applications.
+
+Digital data is input to the device through a 16-bit LVDS data bus with on-chip termination. The device includes a FIFO, data pattern checker and parity test to ease the input interface. The interface also allows full synchronization of multiple devices.
+
+The device is characterized for operation over the entire industrial temperature range of –40°C to 85°C and is available in a very-small 88-pin 9x9mm WQFN package or 196-ball 12×12mm NFBGA package.
+
+Very low power, small size, superior crosstalk, high dynamic range and features of the DAC3484 are an ideal fit for systems with multiple transmit channels.</PartDescription>
+				<PartNumber>DAC3484IZAY</PartNumber>
+				<PartNumber>DAC3484IZAYR</PartNumber>
+			</OrderablePartNumber>
+			<ManufacturerID>Manufacturer ID 1</ManufacturerID>
+		</ManufacturerPartNumbers>
+	</ManufacturerPartNumber-Array>
+	<PartDetails-Array>
+		<PartDetails>
+			<ID>Part Details ID 1</ID>
+			<Name>DAC3484IZAY</Name>
+			<PartsSelection-Array>
+				<PartsSelection>
+					<ID>Part Selection ID 1</ID>
+					<OrderablePartNumberID>Orderable Part Number ID 1</OrderablePartNumberID>
+					<ManufacturerPartNumbersIdentity>
+						<ManufacturerPartNumbersID>Manufacturer Part Numbers ID 1</ManufacturerPartNumbersID>
+					</ManufacturerPartNumbersIdentity>
+				</PartsSelection>
+			</PartsSelection-Array>
+			<Association-Array>
+				<Association>
+					<ID>Association ID 1</ID>
+					<PartsSelection>
+						<PartsSelectionID>Part Selection ID 1</PartsSelectionID>
+					</PartsSelection>
+					<ReferenceDocument-Array>
+						<ReferenceDocumentsID>Reference Document ID 1</ReferenceDocumentsID>
+					</ReferenceDocument-Array>
+					<AssemblyProcessClassification-Array>
+						<AssemblyProcessClassification>
+							<AssemblyProcessClassificationID>Assembly Process Classification ID 1</AssemblyProcessClassificationID>
+							<MoistureSensitivityLevel-Array>
+								<MoistureSensitivityLevelsID>Moisture Sensitivity Level ID 1</MoistureSensitivityLevelsID>
+							</MoistureSensitivityLevel-Array>
+							<StorageTemperatureID>Storage Temperature ID 1</StorageTemperatureID>
+						</AssemblyProcessClassification>
+					</AssemblyProcessClassification-Array>
+					<Electrical-Array>
+						<ElectricalParameters>
+							<ElectricalParametersID>Electrical Parameters ID 1</ElectricalParametersID>
+							<PartClassificationID>Part Classification ID 1</PartClassificationID>
+							<TerminalDetailsID>Electrical Terminal Details ID 1</TerminalDetailsID>
+							<ElectricalSpecificationID>Electrical Specification ID 1</ElectricalSpecificationID>
+							<ESD-ID>ESD ID 1</ESD-ID>
+						</ElectricalParameters>
+						<Mapping>
+							<MappingID>Electrical Map ID 1</MappingID>
+							<PackageTerminalMapID>Package Terminal Map ID 1</PackageTerminalMapID>
+						</Mapping>
+					</Electrical-Array>
+					<Package-Array>
+						<Package>
+							<PackageID>Package ID 1</PackageID>
+						</Package>
+					</Package-Array>
+					<Thermal-Array>
+						<ThermalFamily>
+							<ThermalFamilyID>Thermal Family ID 1</ThermalFamilyID>
+						</ThermalFamily>
+					</Thermal-Array>
+				</Association>
+			</Association-Array>
+		</PartDetails>
+	</PartDetails-Array>
+	<ReferenceDocuments-Array>
+		<ReferenceDocuments>
+			<ID>Reference Document ID 1</ID>
+			<Document>
+				<ID>Document ID 1</ID>
+				<URL>http://www.ti.com/lit/gpn/dac3484</URL>
+				<DocumentClassification>
+					<Datasheet/>
+				</DocumentClassification>
+				<Authorizer>
+					<Name>TI Customer Support</Name>
+					<Email>
+						<Address>ti-cares@ti.com</Address>
+					</Email>
+					<Phone>
+						<Number>972-995-2011</Number>
+					</Phone>
+				</Authorizer>
+				<IssuingCompany>
+					<Name>TEXAS INSTRUMENTS</Name>
+				</IssuingCompany>
+				<Contact>
+					<Name>TI Customer Support</Name>
+					<Email>
+						<Address>ti-cares@ti.com.</Address>
+					</Email>
+					<Phone>
+						<Number>972-995-2011</Number>
+					</Phone>
+				</Contact>
+			</Document>
+		</ReferenceDocuments>
+	</ReferenceDocuments-Array>
+	<AssemblyProcessClassificationSection>
+		<AssemblyProcessClassification-Array>
+			<AssemblyProcessClassification>
+				<ID>Assembly Process Classification ID 1</ID>
+				<MoistureSensitivityLevel-Array>
+					<MoistureSensitivityLevel>
+						<ID>Moisture Sensitivity Level ID 1</ID>
+						<MSL-Code>3</MSL-Code>
+					</MoistureSensitivityLevel>
+				</MoistureSensitivityLevel-Array>
+				<StorageTemperature-Array>
+					<StorageTemperature>
+						<ID>Storage Temperature ID 1</ID>
+						<StorageTemperatureRange>
+							<Temperature>
+								<Minimum>-65</Minimum>
+								<Maximum>150</Maximum>
+							</Temperature>
+							<TemperatureUOM>DegC</TemperatureUOM>
+						</StorageTemperatureRange>
+					</StorageTemperature>
+				</StorageTemperature-Array>
+			</AssemblyProcessClassification>
+		</AssemblyProcessClassification-Array>
+	</AssemblyProcessClassificationSection>
+	<ElectricalSection>
+		<ElectricalParameters-Array>
+			<ElectricalParameters>
+				<ID>Electrical Parameters ID 1</ID>
+				<PartClassification-Array>
+					<PartClassification>
+						<ID>Part Classification ID 1</ID>
+						<Electrical>
+							<DataConverter>
+								<DigitalToAnalog/>
+							</DataConverter>
+						</Electrical>
+					</PartClassification>
+				</PartClassification-Array>
+				<TerminalDetails-Array>
+					<TerminalDetails>
+						<ID>Electrical Terminal Details ID 1</ID>
+						<Properties-Array>
+							<Properties>
+								<ID>Electrical Properties ID 1</ID>
+								<Digital/>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 2</ID>
+								<Direction>
+									<Input/>
+								</Direction>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 3</ID>
+								<Direction>
+									<Output/>
+								</Direction>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 4</ID>
+								<Direction>
+									<Programmable/>
+								</Direction>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 5</ID>
+								<Power>
+									<DC/>
+									<Load/>
+								</Power>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 6</ID>
+								<Ground/>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 7</ID>
+								<InternalPullupPulldown>
+									<Pulldown>
+										<Resistance/>
+									</Pulldown>
+								</InternalPullupPulldown>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 8</ID>
+								<Power>
+									<DC/>
+									<Source/>
+								</Power>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 9</ID>
+								<Analog>
+									<DC/>
+								</Analog>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 10</ID>
+								<ActiveLow/>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 11</ID>
+								<InternalPullupPulldown>
+									<Pullup>
+										<Resistance/>
+									</Pullup>
+								</InternalPullupPulldown>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 12</ID>
+								<Direction>
+									<Bidirectional>
+										<BothDirectionsSimultaneously/>
+									</Bidirectional>
+								</Direction>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 13</ID>
+								<ActiveHigh/>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 14</ID>
+								<NoDieConnection/>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 15</ID>
+								<Reference>
+									<PositiveReference-TerminalName>IOVDD</PositiveReference-TerminalName>
+								</Reference>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 16</ID>
+								<Reference>
+									<PositiveReference-TerminalName>CLKVDD</PositiveReference-TerminalName>
+								</Reference>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 17</ID>
+								<Reference>
+									<NegativeReference-TerminalName>AVDD</NegativeReference-TerminalName>
+								</Reference>
+							</Properties>
+							<Properties>
+								<ID>Electrical Properties ID 18</ID>
+								<Reference>
+									<NegativeReference-TerminalName>PLLVDD</NegativeReference-TerminalName>
+								</Reference>
+							</Properties>
+						</Properties-Array>
+						<TerminalFunction-Array>
+							<TerminalFunction>
+								<ID>Electrical Terminal Function ID 1</ID>
+								<DigitalFunction>
+									<Signal>
+										<ID>Digital Function ID 1</ID>
+										<Clock/>
+									</Signal>
+								</DigitalFunction>
+							</TerminalFunction>
+							<TerminalFunction>
+								<ID>Electrical Terminal Function ID 2</ID>
+								<DigitalFunction>
+									<Signal>
+										<ID>Digital Function ID 2</ID>
+										<Data/>
+									</Signal>
+								</DigitalFunction>
+							</TerminalFunction>
+							<TerminalFunction>
+								<ID>Electrical Terminal Function ID 3</ID>
+								<DigitalFunction>
+									<Signal>
+										<ID>Digital Function ID 3</ID>
+										<Reset/>
+									</Signal>
+								</DigitalFunction>
+							</TerminalFunction>
+							<TerminalFunction>
+								<ID>Electrical Terminal Function ID 4</ID>
+								<DigitalFunction>
+									<Signal>
+										<ID>Digital Function ID 4</ID>
+										<Synch/>
+									</Signal>
+								</DigitalFunction>
+							</TerminalFunction>
+							<TerminalFunction>
+								<ID>Electrical Terminal Function ID 5</ID>
+								<DigitalFunction>
+									<Signal>
+										<ID>Digital Function ID 5</ID>
+										<Strobe/>
+									</Signal>
+								</DigitalFunction>
+							</TerminalFunction>
+							<TerminalFunction>
+								<ID>Electrical Terminal Function ID 6</ID>
+								<DigitalFunction>
+									<Signal>
+										<ID>Digital Function ID 6</ID>
+										<Enable/>
+									</Signal>
+								</DigitalFunction>
+							</TerminalFunction>
+						</TerminalFunction-Array>
+						<TerminalGrouping>
+							<DifferentialPair-Array>
+								<DifferentialPair>
+									<ID>Differential Pair ID 1</ID>
+									<Name>D0</Name>
+									<PositiveTerminalName>D0P</PositiveTerminalName>
+									<NegativeTerminalName>D0N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. 
+									Data format relative to DATACLKP/N clock is Double Data Rate (DDR). D15P is most significant data bit (MSB).
+									D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 2</ID>
+									<Name>D1</Name>
+									<PositiveTerminalName>D1P</PositiveTerminalName>
+									<NegativeTerminalName>D1N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor.
+									Data format relative to DATACLKP/N clock is Double Data Rate (DDR).  D15P is most significant data bit (MSB).
+									D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 3</ID>
+									<Name>D2</Name>
+									<PositiveTerminalName>D2P</PositiveTerminalName>
+									<NegativeTerminalName>D2N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR).  D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 4</ID>
+									<Name>D3</Name>
+									<PositiveTerminalName>D3P</PositiveTerminalName>
+									<NegativeTerminalName>D3N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR).  D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 5</ID>
+									<Name>D4</Name>
+									<PositiveTerminalName>D4P</PositiveTerminalName>
+									<NegativeTerminalName>D4N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR).  D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 6</ID>
+									<Name>D5</Name>
+									<PositiveTerminalName>D5P</PositiveTerminalName>
+									<NegativeTerminalName>D5N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR).  D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 7</ID>
+									<Name>D6</Name>
+									<PositiveTerminalName>D6P</PositiveTerminalName>
+									<NegativeTerminalName>D6N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR).  D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 8</ID>
+									<Name>D7</Name>
+									<PositiveTerminalName>D7P</PositiveTerminalName>
+									<NegativeTerminalName>D7N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR).  D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 9</ID>
+									<Name>D8</Name>
+									<PositiveTerminalName>D8P</PositiveTerminalName>
+									<NegativeTerminalName>D8N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR). D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 10</ID>
+									<Name>D9</Name>
+									<PositiveTerminalName>D9P</PositiveTerminalName>
+									<NegativeTerminalName>D9N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR). D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 11</ID>
+									<Name>D10</Name>
+									<PositiveTerminalName>D10P</PositiveTerminalName>
+									<NegativeTerminalName>D10N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR). D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 12</ID>
+									<Name>D11</Name>
+									<PositiveTerminalName>D11P</PositiveTerminalName>
+									<NegativeTerminalName>D11N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR). D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 13</ID>
+									<Name>D12</Name>
+									<PositiveTerminalName>D12P</PositiveTerminalName>
+									<NegativeTerminalName>D12N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR). D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 14</ID>
+									<Name>D13</Name>
+									<PositiveTerminalName>D13P</PositiveTerminalName>
+									<NegativeTerminalName>D13N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR). D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 15</ID>
+									<Name>D14</Name>
+									<PositiveTerminalName>D14P</PositiveTerminalName>
+									<NegativeTerminalName>D14N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR). D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 16</ID>
+									<Name>D15</Name>
+									<PositiveTerminalName>D15P</PositiveTerminalName>
+									<NegativeTerminalName>D15N</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data bits 0 through 15. Internal 100-Ω termination resistor. Data format relative to DATACLKP/N clock is Double Data Rate (DDR). D15P is most significant data bit (MSB). D0P is least significant data bit (LSB). The order of the bus can be reversed via config2 revbus bit.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 17</ID>
+									<Name>DACCLK</Name>
+									<PositiveTerminalName>DACCLKP</PositiveTerminalName>
+									<NegativeTerminalName>DACCLKN</NegativeTerminalName>
+									<DifferentialDescription> Positive/negative external LVPECL clock input for DAC core with a self-bias</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 18</ID>
+									<Name>DATACLK</Name>
+									<PositiveTerminalName>DATACLKP</PositiveTerminalName>
+									<NegativeTerminalName>DATACLKN</NegativeTerminalName>
+									<DifferentialDescription>LVDS positive/negative input data clock. Internal 100-Ω termination resistor. Input data D[15:0]P/N</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 19</ID>
+									<Name>FRAME</Name>
+									<PositiveTerminalName>FRAMEP</PositiveTerminalName>
+									<NegativeTerminalName>FRAMEN</NegativeTerminalName>
+									<DifferentialDescription>LVDS frame indicator positive/negative input. Internal 100-Ω termination resistor. The main functions of this input are to reset the FIFO pointer or to be used as a syncing source. These two functions are captured with the rising edge of DATACLKP/N. The signal captured by the falling edge of DATACLKP/N can be used as a block parity bit. The FRAMEP/N signal should be edge-aligned with D[15:0]P/N. Additionally it is used to indicate the beginning of the frame.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 20</ID>
+									<Name>IOUTA</Name>
+									<PositiveTerminalName>IOUTAP</PositiveTerminalName>
+									<NegativeTerminalName>IOUTAN</NegativeTerminalName>
+									<DifferentialDescription>A-Channel DAC current output. Connect directly to ground if unused</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 21</ID>
+									<Name>IOUTB</Name>
+									<PositiveTerminalName>IOUTBP</PositiveTerminalName>
+									<NegativeTerminalName>IOUTBN</NegativeTerminalName>
+									<DifferentialDescription>B-Channel DAC current output. Connect directly to ground if unused.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 22</ID>
+									<Name>IOUTC</Name>
+									<PositiveTerminalName>IOUTCP</PositiveTerminalName>
+									<NegativeTerminalName>IOUTCN</NegativeTerminalName>
+									<DifferentialDescription>C-Channel DAC current output. Connect directly to ground if unused.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 23</ID>
+									<Name>IOUTD</Name>
+									<PositiveTerminalName>IOUTDP</PositiveTerminalName>
+									<NegativeTerminalName>IOUTDN</NegativeTerminalName>
+									<DifferentialDescription>D-Channel DAC current output. Connect directly to ground if unused.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 24</ID>
+									<Name>OSTR</Name>
+									<PositiveTerminalName>OSTRP</PositiveTerminalName>
+									<NegativeTerminalName>OSTRN</NegativeTerminalName>
+									<DifferentialDescription>LVPECL output strobe positive/negative input. This positive/negative pair is captured with the rising edge of DACCLKP/N. It is used for multiple DAC synchronization. If unused it can be left unconnected.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 25</ID>
+									<Name>PARITY</Name>
+									<PositiveTerminalName>PARITYP</PositiveTerminalName>
+									<NegativeTerminalName>PARITYN</NegativeTerminalName>
+									<DifferentialDescription>Optional LVDS positive input parity bit. The PARITYP/N LVDS pair has an internal 100-Ω termination resistor. If unused it can be left unconnected.</DifferentialDescription>
+								</DifferentialPair>
+								<DifferentialPair>
+									<ID>Differential Pair ID 26</ID>
+									<Name>SYNC</Name>
+									<PositiveTerminalName>SYNCP</PositiveTerminalName>
+									<NegativeTerminalName>SYNCN</NegativeTerminalName>
+									<DifferentialDescription>Optional LVDS SYNC positive/negative input. The SYNCP/N LVDS pair has an internal 100-Ω termination resistor. If unused it can be left unconnected.</DifferentialDescription>
+								</DifferentialPair>
+							</DifferentialPair-Array>
+							<LogicalGroup-Array>
+								<LogicalGroup>
+									<ID>Logical Group ID 1</ID>
+									<Name>Data Input</Name>
+									<Bus/>
+									<TerminalName>D0P</TerminalName>
+									<TerminalName>D1P</TerminalName>
+									<TerminalName>D2P</TerminalName>
+									<TerminalName>D3P</TerminalName>
+									<TerminalName>D4P</TerminalName>
+									<TerminalName>D5P</TerminalName>
+									<TerminalName>D6P</TerminalName>
+									<TerminalName>D7P</TerminalName>
+									<TerminalName>D8P</TerminalName>
+									<TerminalName>D9P</TerminalName>
+									<TerminalName>D10P</TerminalName>
+									<TerminalName>D11P</TerminalName>
+									<TerminalName>D12P</TerminalName>
+									<TerminalName>D13P</TerminalName>
+									<TerminalName>D14P</TerminalName>
+									<TerminalName>D15P</TerminalName>
+									<TerminalName>D0N</TerminalName>
+									<TerminalName>D1N</TerminalName>
+									<TerminalName>D2N</TerminalName>
+									<TerminalName>D3N</TerminalName>
+									<TerminalName>D4N</TerminalName>
+									<TerminalName>D5N</TerminalName>
+									<TerminalName>D6N</TerminalName>
+									<TerminalName>D7N</TerminalName>
+									<TerminalName>D8N</TerminalName>
+									<TerminalName>D9N</TerminalName>
+									<TerminalName>D10N</TerminalName>
+									<TerminalName>D11N</TerminalName>
+									<TerminalName>D12N</TerminalName>
+									<TerminalName>D13N</TerminalName>
+									<TerminalName>D14N</TerminalName>
+									<TerminalName>D15N</TerminalName>
+								</LogicalGroup>
+								<LogicalGroup>
+									<ID>Logical Group ID 2</ID>
+									<Name>Control Interface</Name>
+									<Other>CMOS</Other>
+									<TerminalName>ALARM</TerminalName>
+									<TerminalName>SDO</TerminalName>
+									<TerminalName>SDIO</TerminalName>
+									<TerminalName>RESETB</TerminalName>
+									<TerminalName>SDENB</TerminalName>
+									<TerminalName>TXENABLE</TerminalName>
+									<TerminalName>SCLK</TerminalName>
+									<TerminalName>SLEEP</TerminalName>
+									<TerminalName>TESTMODE</TerminalName>
+								</LogicalGroup>
+								<LogicalGroup>
+									<ID>Logical Group ID 3</ID>
+									<Name>DAC Output</Name>
+									<Function/>
+									<TerminalName/>
+								</LogicalGroup>
+								<LogicalGroup>
+									<ID>Logical Group ID 4</ID>
+									<Name>Sync/Parity Input</Name>
+									<Function/>
+									<TerminalName/>
+								</LogicalGroup>
+								<LogicalGroup>
+									<ID>Logical Group ID 5</ID>
+									<Name>Clock Input</Name>
+									<Function/>
+									<TerminalName/>
+								</LogicalGroup>
+								<LogicalGroup>
+									<ID>Logical Group ID 6</ID>
+									<Name>3.3 V Supply</Name>
+									<Function/>
+									<TerminalName/>
+								</LogicalGroup>
+								<LogicalGroup>
+									<ID>Logical Group ID 7</ID>
+									<Name>1.2 V Supply</Name>
+									<Function/>
+									<TerminalName/>
+								</LogicalGroup>
+							</LogicalGroup-Array>
+						</TerminalGrouping>
+						<ExternalConnection-Array>
+							<ExternalConnection>
+								<TerminalName>EXTIO</TerminalName>
+								<Decoupling>
+									<Recomendation>
+										<GroundTerminalName>GND</GroundTerminalName>
+										<Capacitance>
+											<Capacitance>0.1</Capacitance>
+											<CapacitanceValueUOM>uF</CapacitanceValueUOM>
+										</Capacitance>
+									</Recomendation>
+								</Decoupling>
+							</ExternalConnection>
+						</ExternalConnection-Array>
+					</TerminalDetails>
+				</TerminalDetails-Array>
+				<ElectricalSpecification-Array>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 1</ID>
+						<TestCondition>
+							<Rule>over operating free-air temperature range</Rule>
+						</TestCondition>
+						<ParameterSet>
+							<Parameter>
+								<SymbolDescription>Peak Input Current</SymbolDescription>
+								<Values>
+									<Maximum>20</Maximum>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Peak Total Input Current</SymbolDescription>
+								<Values>
+									<Maximum>-30</Maximum>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Operating free-air temperature range, TA: DAC3484</SymbolDescription>
+								<Values>
+									<Minimum>-40</Minimum>
+									<Maximum>85</Maximum>
+								</Values>
+								<Units>
+									<Temperature>DegC</Temperature>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Absolute maximum junction temperature, TJ </SymbolDescription>
+								<Values>
+									<Maximum>150</Maximum>
+								</Values>
+								<Units>
+									<Temperature>DegC</Temperature>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Storage temperature range</SymbolDescription>
+								<Values>
+									<Minimum>-65</Minimum>
+									<Maximum>150</Maximum>
+								</Values>
+								<Units>
+									<Temperature>DegC</Temperature>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+						<ParameterSet>
+							<TestCondition>
+								<Rule>IOUT_FS = 20 mA</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>nominal supplies</Rule>
+							</TestCondition>
+							<Parameter>
+								<SymbolDescription>Full scale output current </SymbolDescription>
+								<Values>
+									<Nominal>20</Nominal>
+									<Minimum>10</Minimum>
+									<Maximum>30</Maximum>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Output compliance range</SymbolDescription>
+								<Values>
+									<Minimum>-0.5</Minimum>
+									<Maximum>0.6</Maximum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Output resistance</SymbolDescription>
+								<Values>
+									<Nominal>300</Nominal>
+								</Values>
+								<Units>
+									<Resistance>KOhm</Resistance>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Output capacitance</SymbolDescription>
+								<Values>
+									<Nominal>5</Nominal>
+								</Values>
+								<Units>
+									<Capacitance>pF</Capacitance>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>V_REF</Symbol>
+								<SymbolDescription>Reference output voltage</SymbolDescription>
+								<Values>
+									<Nominal>1.2</Nominal>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Reference output current</SymbolDescription>
+								<Values>
+									<Nominal>100</Nominal>
+								</Values>
+								<Units>
+									<ComplexUOM>
+										<Factor>
+											<Prefix>Nano</Prefix>
+											<UOM>Ampere</UOM>
+										</Factor>
+									</ComplexUOM>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<TestCondition>
+									<Rule>External Reference Mode</Rule>
+								</TestCondition>
+								<Symbol>V_EXTIO</Symbol>
+								<SymbolDescription>Input voltage range</SymbolDescription>
+								<Values>
+									<Nominal>1.2</Nominal>
+									<Minimum>0.6</Minimum>
+									<Maximum>1.25</Maximum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<TestCondition>
+									<Rule>External Reference Mode</Rule>
+								</TestCondition>
+								<SymbolDescription>Input resistance</SymbolDescription>
+								<Values>
+									<Nominal>1</Nominal>
+								</Values>
+								<Units>
+									<Resistance>MOhm</Resistance>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Small signal bandwidth</SymbolDescription>
+								<Values>
+									<Nominal>472</Nominal>
+								</Values>
+								<Units>
+									<Frequency>KHz</Frequency>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Input capacitance</SymbolDescription>
+								<Values>
+									<Nominal>100</Nominal>
+								</Values>
+								<Units>
+									<Capacitance>pF</Capacitance>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+						<ParameterSet>
+							<TestCondition>
+								<Rule>IOUT_FS = 20 mA</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>nominal supplies</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>MODE 1</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>f_DAC = 1.25 GSPS</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>4x interpolation</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>Mixer on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>QMC on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>invsinc on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>PLL enabled</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>20-mA FS output</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>IF = 200 MHz</Rule>
+							</TestCondition>
+							<Parameter>
+								<Symbol>I_(AVDD)</Symbol>
+								<SymbolDescription>Analog supply current</SymbolDescription>
+								<Values>
+									<Nominal>123</Nominal>
+									<Maximum>135</Maximum>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DIGVDD)</Symbol>
+								<SymbolDescription>Digital supply current</SymbolDescription>
+								<Values>
+									<Nominal>595</Nominal>
+									<Maximum>650</Maximum>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DACVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>35</Nominal>
+									<Maximum>50</Maximum>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(CLKVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>90</Nominal>
+									<Maximum>100</Maximum>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>P</Symbol>
+								<SymbolDescription>Power Dissipation</SymbolDescription>
+								<Values>
+									<Nominal>1270</Nominal>
+									<Maximum>1320</Maximum>
+								</Values>
+								<Units>
+									<Power>mW</Power>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+						<ParameterSet>
+							<TestCondition>
+								<Rule>IOUT_FS = 20 mA</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>nominal supplies</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>MODE 2</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>f_DAC = 1.25 GSPS</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>4x interpolation</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>Mixer on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>QMC on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>invsinc on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>PLL disabled</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>20-mA FS output</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>IF = 200 MHz</Rule>
+							</TestCondition>
+							<Parameter>
+								<Symbol>I_(AVDD)</Symbol>
+								<SymbolDescription>Analog supply current</SymbolDescription>
+								<Values>
+									<Nominal>107</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DIGVDD)</Symbol>
+								<SymbolDescription>Digital supply current</SymbolDescription>
+								<Values>
+									<Nominal>595</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DACVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>38</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(CLKVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>71</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>P</Symbol>
+								<SymbolDescription>Power Dissipation</SymbolDescription>
+								<Values>
+									<Nominal>1198</Nominal>
+								</Values>
+								<Units>
+									<Power>mW</Power>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+						<ParameterSet>
+							<TestCondition>
+								<Rule>IOUT_FS = 20 mA</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>nominal supplies</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>MODE 3</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>f_DAC = 625 MSPS</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>2x interpolation</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>Mixer on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>QMC on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>invsinc off</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>PLL disabled</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>20-mA FS output</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>IF = 200 MHz</Rule>
+							</TestCondition>
+							<Parameter>
+								<Symbol>I_(AVDD)</Symbol>
+								<SymbolDescription>Analog supply current</SymbolDescription>
+								<Values>
+									<Nominal>107</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DIGVDD)</Symbol>
+								<SymbolDescription>Digital supply current</SymbolDescription>
+								<Values>
+									<Nominal>282</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DACVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>20</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(CLKVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>41</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>P</Symbol>
+								<SymbolDescription>Power Dissipation</SymbolDescription>
+								<Values>
+									<Nominal>765</Nominal>
+								</Values>
+								<Units>
+									<Power>mW</Power>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+						<ParameterSet>
+							<TestCondition>
+								<Rule>IOUT_FS = 20 mA</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>nominal supplies</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>MODE 4</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>f_DAC = 1.25 GSPS</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>4x interpolation</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>Mixer on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>QMC on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>invsinc on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>PLL enabled</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>Channels A/B/C/D output sleep</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>IF = 200 MHz</Rule>
+							</TestCondition>
+							<Parameter>
+								<Symbol>I_(AVDD)</Symbol>
+								<SymbolDescription>Analog supply current</SymbolDescription>
+								<Values>
+									<Nominal>35</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DIGVDD)</Symbol>
+								<SymbolDescription>Digital supply current</SymbolDescription>
+								<Values>
+									<Nominal>595</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DACVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>38</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(CLKVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>90</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>P</Symbol>
+								<SymbolDescription>Power Dissipation</SymbolDescription>
+								<Values>
+									<Nominal>984</Nominal>
+								</Values>
+								<Units>
+									<Power>mW</Power>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+						<ParameterSet>
+							<TestCondition>
+								<Rule>IOUT_FS = 20 mA</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>nominal supplies</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>MODE 5</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>Power-Down Mode</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>No Clock</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>DAC on sleep mode (clock receiver sleep)</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>Channels A/B/C/D output sleep</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>Static data pattern</Rule>
+							</TestCondition>
+							<Parameter>
+								<Symbol>I_(AVDD)</Symbol>
+								<SymbolDescription>Analog supply current</SymbolDescription>
+								<Values>
+									<Nominal>20</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DIGVDD)</Symbol>
+								<SymbolDescription>Digital supply current</SymbolDescription>
+								<Values>
+									<Nominal>10</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DACVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>4</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(CLKVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>10</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>P</Symbol>
+								<SymbolDescription>Power Dissipation</SymbolDescription>
+								<Values>
+									<Nominal>95</Nominal>
+								</Values>
+								<Units>
+									<Power>mW</Power>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+						<ParameterSet>
+							<TestCondition>
+								<Rule>IOUT_FS = 20 mA</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>nominal supplies</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>MODE 6</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>f_DAC = 1 GSPS</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>8x interpolation</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>Mixer off</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>QMC on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>invsinc off</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>PLL enabled</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>20-mA FS output</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>IF = 200 MHz</Rule>
+							</TestCondition>
+							<Parameter>
+								<Symbol>I_(AVDD)</Symbol>
+								<SymbolDescription>Analog supply current</SymbolDescription>
+								<Values>
+									<Nominal>107</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DIGVDD)</Symbol>
+								<SymbolDescription>Digital supply current</SymbolDescription>
+								<Values>
+									<Nominal>333</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DACVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>35</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(CLKVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>60</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>P</Symbol>
+								<SymbolDescription>Power Dissipation</SymbolDescription>
+								<Values>
+									<Nominal>867</Nominal>
+								</Values>
+								<Units>
+									<Power>mW</Power>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+						<ParameterSet>
+							<TestCondition>
+								<Rule>IOUT_FS = 20 mA</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>nominal supplies</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>MODE 7</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>f_DAC = 737.28 MSPS</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>4x interpolation</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>Mixer on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>QMC on</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>invsinc off</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>PLL enabled</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>20-mA FS output</Rule>
+							</TestCondition>
+							<TestCondition>
+								<Rule>IF = 150 MHz</Rule>
+							</TestCondition>
+							<Parameter>
+								<Symbol>I_(AVDD)</Symbol>
+								<SymbolDescription>Analog supply current</SymbolDescription>
+								<Values>
+									<Nominal>123</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DIGVDD)</Symbol>
+								<SymbolDescription>Digital supply current</SymbolDescription>
+								<Values>
+									<Nominal>323</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(DACVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>23</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_(CLKVDD)</Symbol>
+								<SymbolDescription>DAC supply current</SymbolDescription>
+								<Values>
+									<Nominal>69</Nominal>
+								</Values>
+								<Units>
+									<Current>mA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>P</Symbol>
+								<SymbolDescription>Power Dissipation</SymbolDescription>
+								<Values>
+									<Nominal>904</Nominal>
+								</Values>
+								<Units>
+									<Power>mW</Power>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 2</ID>
+						<TestCondition>
+							<Rule>over operating free-air temperature range</Rule>
+						</TestCondition>
+						<ParameterSet>
+							<Parameter>
+								<SymbolDescription>Supply Voltage Range</SymbolDescription>
+								<Values>
+									<Minimum>-0.5</Minimum>
+									<Maximum>1.5</Maximum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 3</ID>
+						<TestCondition>
+							<Rule>over operating free-air temperature range</Rule>
+						</TestCondition>
+						<ParameterSet>
+							<Parameter>
+								<SymbolDescription>Supply Voltage Range</SymbolDescription>
+								<Values>
+									<Minimum>-0.5</Minimum>
+									<Maximum>4.0</Maximum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 4</ID>
+						<TestCondition>
+							<Rule>over operating free-air temperature range</Rule>
+						</TestCondition>
+						<ParameterSet>
+							<Parameter>
+								<SymbolDescription>Pin voltage range</SymbolDescription>
+								<Rule> &gt;= -0.5, &lt;= (IOVDD + 0.5) V</Rule>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 5</ID>
+						<TestCondition>
+							<Rule>over operating free-air temperature range</Rule>
+						</TestCondition>
+						<ParameterSet>
+							<Parameter>
+								<SymbolDescription>Pin voltage range</SymbolDescription>
+								<Rule> &gt;= -0.5, &lt;= (CLKVDD + 0.5) V</Rule>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 6</ID>
+						<TestCondition>
+							<Rule>over operating free-air temperature range</Rule>
+						</TestCondition>
+						<ParameterSet>
+							<Parameter>
+								<SymbolDescription>Pin voltage range</SymbolDescription>
+								<Rule> &gt;= -1.0, &lt;= (AVDD + 0.5) V</Rule>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 7</ID>
+						<TestCondition>
+							<Rule>over operating free-air temperature range</Rule>
+						</TestCondition>
+						<ParameterSet>
+							<Parameter>
+								<SymbolDescription>Pin voltage range</SymbolDescription>
+								<Rule> &gt;= 0.5, &lt;= (PLLAVDD + 0.5) V</Rule>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 8</ID>
+						<TestCondition>
+							<Rule>over operating free-air temperature range</Rule>
+						</TestCondition>
+						<TestCondition>
+							<Rule>IOUT_FS = 20 mA</Rule>
+						</TestCondition>
+						<TestCondition>
+							<Rule>nominal supplies</Rule>
+						</TestCondition>
+						<TestCondition>
+							<Rule>All Conditions</Rule>
+						</TestCondition>
+						<ParameterSet>
+							<Parameter>
+								<SymbolDescription>Power Supply</SymbolDescription>
+								<Values>
+									<Nominal>3.3</Nominal>
+									<Minimum>3.14</Minimum>
+									<Maximum>3.46</Maximum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 9</ID>
+						<TestCondition>
+							<Rule>over operating free-air temperature range</Rule>
+						</TestCondition>
+						<TestCondition>
+							<Rule>IOUT_FS = 20 mA</Rule>
+						</TestCondition>
+						<TestCondition>
+							<Rule>nominal supplies</Rule>
+						</TestCondition>
+						<TestCondition>
+							<Rule>All Conditions</Rule>
+						</TestCondition>
+						<ParameterSet>
+							<Parameter>
+								<SymbolDescription>Power Supply</SymbolDescription>
+								<Values>
+									<Nominal>1.2</Nominal>
+									<Minimum>1.14</Minimum>
+									<Maximum>1.32</Maximum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 10</ID>
+						<TestCondition>
+							<Rule>over operating free-air temperature range</Rule>
+						</TestCondition>
+						<TestCondition>
+							<Rule>IOUT_FS = 20 mA</Rule>
+						</TestCondition>
+						<TestCondition>
+							<Rule>nominal supplies</Rule>
+						</TestCondition>
+						<ParameterSet>
+							<Parameter>
+								<TestCondition>
+									<Rule>F_DAC Sampling Rate ≤ 1.25 GSPS, PLL OFF</Rule>
+								</TestCondition>
+								<TestCondition>
+									<Rule>F_DAC Sampling Rate ≤ 1 GSPS, PLL ON </Rule>
+								</TestCondition>
+								<SymbolDescription>Power Supply</SymbolDescription>
+								<Values>
+									<Nominal>1.2</Nominal>
+									<Minimum>1.14</Minimum>
+									<Maximum>1.32</Maximum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<TestCondition>
+									<Rule>F_DAC Sampling Rate &gt; 1 GSPS, PLL ON</Rule>
+								</TestCondition>
+								<SymbolDescription>Power Supply</SymbolDescription>
+								<Values>
+									<Nominal>1.29</Nominal>
+									<Minimum>1.25</Minimum>
+									<Maximum>1.32</Maximum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 11</ID>
+						<ParameterSet>
+							<Parameter>
+								<Symbol>V_A,B+</Symbol>
+								<SymbolDescription>Logic high differential input voltage threshold</SymbolDescription>
+								<Values>
+									<Minimum>200</Minimum>
+								</Values>
+								<Units>
+									<Voltage>mV</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>V_A,B-</Symbol>
+								<SymbolDescription>Logic low differential input voltage threshold</SymbolDescription>
+								<Values>
+									<Maximum>-200</Maximum>
+								</Values>
+								<Units>
+									<Voltage>mV</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>V_COM</Symbol>
+								<SymbolDescription>Input Common Mode</SymbolDescription>
+								<Values>
+									<Nominal>1.2</Nominal>
+									<Minimum>1.0</Minimum>
+									<Maximum>1.6</Maximum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>Z_T</Symbol>
+								<SymbolDescription>Input termination</SymbolDescription>
+								<Values>
+									<Nominal>85</Nominal>
+									<Minimum>110</Minimum>
+									<Maximum>135</Maximum>
+								</Values>
+								<Units>
+									<Resistance>Ohm</Resistance>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>C_L</Symbol>
+								<SymbolDescription>LVDS Input capacitance</SymbolDescription>
+								<Values>
+									<Nominal>2</Nominal>
+								</Values>
+								<Units>
+									<Capacitance>pF</Capacitance>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 12</ID>
+						<ParameterSet>
+							<Parameter>
+								<TestCondition>
+									<Rule>|DACCLKP - DACCLKN|</Rule>
+								</TestCondition>
+								<SymbolDescription>Differential voltage</SymbolDescription>
+								<Values>
+									<Nominal>0.8</Nominal>
+									<Minimum>0.4</Minimum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Internally biased common-mode voltage</SymbolDescription>
+								<Values>
+									<Nominal>0.2</Nominal>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Single-ended input level</SymbolDescription>
+								<Values>
+									<Minimum>-0.4</Minimum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 13</ID>
+						<ParameterSet>
+							<Parameter>
+								<TestCondition>
+									<Rule>|OSTRP – OSTRN|</Rule>
+								</TestCondition>
+								<SymbolDescription>Differential voltage</SymbolDescription>
+								<Values>
+									<Nominal>0.8</Nominal>
+									<Minimum>0.4</Minimum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Internally biased common-mode voltage</SymbolDescription>
+								<Values>
+									<Nominal>0.2</Nominal>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<SymbolDescription>Single-ended input level</SymbolDescription>
+								<Values>
+									<Minimum>-0.4</Minimum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+					<ElectricalSpecification>
+						<ID>Electrical Specification ID 14</ID>
+						<ParameterSet>
+							<Parameter>
+								<Symbol>V_IH</Symbol>
+								<SymbolDescription>High-level input voltage</SymbolDescription>
+								<Values>
+									<Minimum>2</Minimum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>V_IL</Symbol>
+								<SymbolDescription>Low-level input voltage</SymbolDescription>
+								<Values>
+									<Maximum>0.8</Maximum>
+								</Values>
+								<Units>
+									<Voltage>V</Voltage>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_IH</Symbol>
+								<SymbolDescription>High-level input current</SymbolDescription>
+								<Values>
+									<Minimum>-40</Minimum>
+									<Maximum>40</Maximum>
+								</Values>
+								<Units>
+									<Current>uA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>I_IL</Symbol>
+								<SymbolDescription>Low-level input current</SymbolDescription>
+								<Values>
+									<Minimum>-40</Minimum>
+									<Maximum>40</Maximum>
+								</Values>
+								<Units>
+									<Current>uA</Current>
+								</Units>
+							</Parameter>
+							<Parameter>
+								<Symbol>C_I</Symbol>
+								<SymbolDescription>CMOS Input capacitance</SymbolDescription>
+								<Values>
+									<Nominal>0.2</Nominal>
+								</Values>
+								<Units>
+									<Capacitance>pF</Capacitance>
+								</Units>
+							</Parameter>
+						</ParameterSet>
+					</ElectricalSpecification>
+				</ElectricalSpecification-Array>
+			</ElectricalParameters>
+		</ElectricalParameters-Array>
+		<Mapping-Array>
+			<Mapping>
+				<ID>Electrical Map ID 1</ID>
+				<ElectricalMap>
+					<ID>Electrical Map ID 1</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 1</TerminalMapID>
+						<TerminalDescription>AVDD - Analog supply voltage. (3.3 V)</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 8</PropertyID>
+					<PropertyID>Electrical Properties ID 9</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 3</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 8</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 2</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 2</TerminalMapID>
+						<TerminalDescription>ALARM - CMOS output for ALARM condition. The ALARM output functionality is defined through the config7 register. Default polarity is active low, but can be changed to active high via config0 alarm_out_pol control bit.</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 3</PropertyID>
+					<PropertyID>Electrical Properties ID 10</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 14</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 3</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 3</TerminalMapID>
+						<TerminalDescription>BIASJ - Full-scale output current bias. For 30-mA full-scale output current, connect 1.28 kΩ to ground. Change the full-scale output current through coarse_dac(3:0) in config3, bit&lt;15:12&gt;</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 3</PropertyID>
+					<PropertyID>Electrical Properties ID 17</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 6</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 4</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 4</TerminalMapID>
+						<TerminalDescription>CLCKVDD - Internal clock buffer supply voltage. (1.2 V) It is recommended to isolate this supply from DIGVDD and DACVDD.</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 8</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 2</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 10</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 5</ID>
+					<DifferentialPairID>Differential Pair ID 1</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 2</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 3</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 4</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 5</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 6</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 7</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 8</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 9</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 10</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 11</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 12</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 13</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 14</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 15</DifferentialPairID>
+					<DifferentialPairID>Differential Pair ID 16</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 1</PropertyID>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 2</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 11</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 6</ID>
+					<DifferentialPairID>Differential Pair ID 17</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 16</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 1</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 5</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 12</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 7</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 39</TerminalMapID>
+						<TerminalDescription>DACVDD - DAC core supply voltage. (1.2 V). It is recommended to isolate this supply from CLKVDD and DIGVDD</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 8</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 1</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 2</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 10</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 8</ID>
+					<DifferentialPairID>Differential Pair ID 18</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 1</PropertyID>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 2</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 11</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 9</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 42</TerminalMapID>
+						<TerminalDescription>DIGVDD - Digital supply voltage. (1.2 V). It is recommended to isolate this supply from CLKVDD and DACVDD</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 1</PropertyID>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 8</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 1</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 2</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 9</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 10</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 43</TerminalMapID>
+						<TerminalDescription>EXTIO - Used as external reference input when internal reference is disabled through config27 extref_ena = 1b. Used as internal reference output when config27 extref_ena = 0b (default). Requires a 0.1-µF decoupling capacitor to AGND when used as reference output.</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 1</PropertyID>
+					<PropertyID>Electrical Properties ID 4</PropertyID>
+					<PropertyID>Electrical Properties ID 17</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 1</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 6</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 11</ID>
+					<DifferentialPairID>Differential Pair ID 19</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 1</PropertyID>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 3</TerminalFunctionID>
+					<TerminalFunctionID>Electrical Terminal Function ID 4</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 11</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 12</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 46</TerminalMapID>
+						<TerminalDescription>GND - These pins are ground for all supplies.</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 6</PropertyID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 13</ID>
+					<DifferentialPairID>Differential Pair ID 20</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 3</PropertyID>
+					<PropertyID>Electrical Properties ID 17</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 6</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 14</ID>
+					<DifferentialPairID>Differential Pair ID 21</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 3</PropertyID>
+					<PropertyID>Electrical Properties ID 17</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 6</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 15</ID>
+					<DifferentialPairID>Differential Pair ID 22</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 3</PropertyID>
+					<PropertyID>Electrical Properties ID 17</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 6</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 16</ID>
+					<DifferentialPairID>Differential Pair ID 23</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 3</PropertyID>
+					<PropertyID>Electrical Properties ID 17</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 6</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 17</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 55</TerminalMapID>
+						<TerminalDescription>IOVDD - Supply voltage for all digital I/O. (3.3 V)</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 8</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 3</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 8</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 18</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 56</TerminalMapID>
+						<TerminalDescription>LPF - PLL loop filter connection. If not using the clock multiplying PLL, the LPF pin can be left unconnected</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 18</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 7</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 19</ID>
+					<DifferentialPairID>Differential Pair ID 24</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 16</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 5</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 5</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 13</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 20</ID>
+					<DifferentialPairID>Differential Pair ID 25</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 11</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 21</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 61</TerminalMapID>
+						<TerminalDescription>PLLAVDD - PLL analog supply voltage. (3.3 V)</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 8</PropertyID>
+					<PropertyID>Electrical Properties ID 9</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 3</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 8</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 22</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 62</TerminalMapID>
+						<TerminalDescription>SCLK - Serial interface clock. Internal pull-down.</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 7</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 1</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 14</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 23</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 63</TerminalMapID>
+						<TerminalDescription>SDENB - Active low serial data enable, always an input to the DAC3484. Internal pull-up.</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 10</PropertyID>
+					<PropertyID>Electrical Properties ID 11</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 6</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 14</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 24</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 64</TerminalMapID>
+						<TerminalDescription>SDIO -Serial interface data. Bi-directional in 3-pin mode (default) and 4-pin mode. Internal pull-down</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 7</PropertyID>
+					<PropertyID>Electrical Properties ID 12</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 2</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 14</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 25</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 65</TerminalMapID>
+						<TerminalDescription>SDO -Uni-directional serial interface data in 4-pin mode. The SDO pin is three-stated in 3-pin interface mode (default).</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 3</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 2</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 14</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 26</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 66</TerminalMapID>
+						<TerminalDescription>SLEEP -Active high asynchronous hardware power-down input. Internal pull-down. If SLEEP pin is set to logic HIGH before and during device power-up and initialization, the fuse_sleep bit in register 0x1B, bit 11 must be written after register 0x23 during device initialization register setup.</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 7</PropertyID>
+					<PropertyID>Electrical Properties ID 13</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 14</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 27</ID>
+					<DifferentialPairID>Differential Pair ID 26</DifferentialPairID>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 4</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 11</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 28</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 69</TerminalMapID>
+						<TerminalDescription>RESETB -Active low input for chip RESET, which resets all the programming registers to their default state. Internal pull-up.</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 10</PropertyID>
+					<PropertyID>Electrical Properties ID 11</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 14</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 29</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 70</TerminalMapID>
+						<TerminalDescription>TXENABLE -Transmit enable active high input. Internal pull-down. To enable analog output data transmission, set sif_txenable in register config3 to 1b or pull CMOS TXENABLE pin to high. To disable analog output, set sif_txenable to 0b and pull CMOS TXENABLE pin to low. The DAC output is forced to midscale.</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 7</PropertyID>
+					<PropertyID>Electrical Properties ID 13</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<TerminalFunctionID>Electrical Terminal Function ID 6</TerminalFunctionID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+					<ElectricalSpecificationID>Electrical Specification ID 14</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 30</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 71</TerminalMapID>
+						<TerminalDescription>TESTMODE -This pin is used for factory testing. Internal pull-down. Leave unconnected for normal operation</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 3</PropertyID>
+					<PropertyID>Electrical Properties ID 7</PropertyID>
+					<PropertyID>Electrical Properties ID 15</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 4</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 31</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 72</TerminalMapID>
+						<TerminalDescription>VFUSE - Digital supply voltage. This supply pin is also used for factory fuse programming. Connect to DACVDD for normal operation.</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 2</PropertyID>
+					<PropertyID>Electrical Properties ID 8</PropertyID>
+					<ElectricalSpecificationID>Electrical Specification ID 2</ElectricalSpecificationID>
+				</ElectricalMap>
+				<ElectricalMap>
+					<ID>Electrical Map ID 32</ID>
+					<Terminal>
+						<TerminalMapID>Terminal Map ID 73</TerminalMapID>
+						<TerminalDescription>N/C - Not Connected</TerminalDescription>
+					</Terminal>
+					<PropertyID>Electrical Properties ID 14</PropertyID>
+				</ElectricalMap>
+				<PackageTerminalMap>
+					<ID>Package Terminal Map ID 1</ID>
+					<PackageID>Package ID 1</PackageID>
+					<TerminalMap>
+						<ID>Terminal Map ID 1</ID>
+						<TerminalName>AVDD</TerminalName>
+						<TerminalNumber>D10</TerminalNumber>
+						<TerminalNumber>E11</TerminalNumber>
+						<TerminalNumber>F11</TerminalNumber>
+						<TerminalNumber>G11</TerminalNumber>
+						<TerminalNumber>H11</TerminalNumber>
+						<TerminalNumber>J11</TerminalNumber>
+						<TerminalNumber>K11</TerminalNumber>
+						<TerminalNumber>L10</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 2</ID>
+						<TerminalName>ALARM</TerminalName>
+						<TerminalNumber>N12</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 3</ID>
+						<TerminalName>BIASJ</TerminalName>
+						<TerminalNumber>H12</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 4</ID>
+						<TerminalName>CLKVDD</TerminalName>
+						<TerminalNumber>C12</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 5</ID>
+						<TerminalName>D0P</TerminalName>
+						<TerminalNumber>N4</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 6</ID>
+						<TerminalName>D1P</TerminalName>
+						<TerminalNumber>N3</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 7</ID>
+						<TerminalName>D2P</TerminalName>
+						<TerminalNumber>N2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 8</ID>
+						<TerminalName>D3P</TerminalName>
+						<TerminalNumber>N1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 9</ID>
+						<TerminalName>D4P</TerminalName>
+						<TerminalNumber>M2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 10</ID>
+						<TerminalName>D5P</TerminalName>
+						<TerminalNumber>L2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 11</ID>
+						<TerminalName>D6P</TerminalName>
+						<TerminalNumber>K2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 12</ID>
+						<TerminalName>D7P</TerminalName>
+						<TerminalNumber>J2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 13</ID>
+						<TerminalName>D8P</TerminalName>
+						<TerminalNumber>F2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 14</ID>
+						<TerminalName>D9P</TerminalName>
+						<TerminalNumber>E2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 15</ID>
+						<TerminalName>D10P</TerminalName>
+						<TerminalNumber>D2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 16</ID>
+						<TerminalName>D11P</TerminalName>
+						<TerminalNumber>C2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 17</ID>
+						<TerminalName>D12P</TerminalName>
+						<TerminalNumber>A1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 18</ID>
+						<TerminalName>D13P</TerminalName>
+						<TerminalNumber>A2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 19</ID>
+						<TerminalName>D14P</TerminalName>
+						<TerminalNumber>A3</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 20</ID>
+						<TerminalName>D15P</TerminalName>
+						<TerminalNumber>A4</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 21</ID>
+						<TerminalName>D0N</TerminalName>
+						<TerminalNumber>P4</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 22</ID>
+						<TerminalName>D1N</TerminalName>
+						<TerminalNumber>P3</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 23</ID>
+						<TerminalName>D2N</TerminalName>
+						<TerminalNumber>P2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 24</ID>
+						<TerminalName>D3N</TerminalName>
+						<TerminalNumber>P1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 25</ID>
+						<TerminalName>D4N</TerminalName>
+						<TerminalNumber>M1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 26</ID>
+						<TerminalName>D5N</TerminalName>
+						<TerminalNumber>L1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 27</ID>
+						<TerminalName>D6N</TerminalName>
+						<TerminalNumber>K1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 28</ID>
+						<TerminalName>D7N</TerminalName>
+						<TerminalNumber>J1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 29</ID>
+						<TerminalName>D8N</TerminalName>
+						<TerminalNumber>F1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 30</ID>
+						<TerminalName>D9N</TerminalName>
+						<TerminalNumber>E1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 31</ID>
+						<TerminalName>D10N</TerminalName>
+						<TerminalNumber>D1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 32</ID>
+						<TerminalName>D11N</TerminalName>
+						<TerminalNumber>C1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 33</ID>
+						<TerminalName>D12N</TerminalName>
+						<TerminalNumber>B1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 34</ID>
+						<TerminalName>D13N</TerminalName>
+						<TerminalNumber>B2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 35</ID>
+						<TerminalName>D14N</TerminalName>
+						<TerminalNumber>B3</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 36</ID>
+						<TerminalName>D15N</TerminalName>
+						<TerminalNumber>B4</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 37</ID>
+						<TerminalName>DACCLKP</TerminalName>
+						<TerminalNumber>A12</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 38</ID>
+						<TerminalName>DACCLKN</TerminalName>
+						<TerminalNumber>A11</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 39</ID>
+						<TerminalName>DACVDD</TerminalName>
+						<TerminalNumber>D9</TerminalNumber>
+						<TerminalNumber>E10</TerminalNumber>
+						<TerminalNumber>E9</TerminalNumber>
+						<TerminalNumber>F10</TerminalNumber>
+						<TerminalNumber>G10</TerminalNumber>
+						<TerminalNumber>H10</TerminalNumber>
+						<TerminalNumber>J10</TerminalNumber>
+						<TerminalNumber>K10</TerminalNumber>
+						<TerminalNumber>K9</TerminalNumber>
+						<TerminalNumber>L9</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 40</ID>
+						<TerminalName>DATACLKP</TerminalName>
+						<TerminalNumber>G2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 41</ID>
+						<TerminalName>DATACLKN</TerminalName>
+						<TerminalNumber>G1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 42</ID>
+						<TerminalName>DIGVDD</TerminalName>
+						<TerminalNumber>E5</TerminalNumber>
+						<TerminalNumber>E6</TerminalNumber>
+						<TerminalNumber>E7</TerminalNumber>
+						<TerminalNumber>F5</TerminalNumber>
+						<TerminalNumber>J5</TerminalNumber>
+						<TerminalNumber>K5</TerminalNumber>
+						<TerminalNumber>K6</TerminalNumber>
+						<TerminalNumber>K7</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 43</ID>
+						<TerminalName>EXTIO</TerminalName>
+						<TerminalNumber>G12</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 44</ID>
+						<TerminalName>FRAMEP</TerminalName>
+						<TerminalNumber>H2</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 45</ID>
+						<TerminalName>FRAMEN</TerminalName>
+						<TerminalNumber>H1</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 46</ID>
+						<TerminalName>GND</TerminalName>
+						<TerminalNumber>A10</TerminalNumber>
+						<TerminalNumber>A13</TerminalNumber>
+						<TerminalNumber>A14</TerminalNumber>
+						<TerminalNumber>B10</TerminalNumber>
+						<TerminalNumber>B11</TerminalNumber>
+						<TerminalNumber>B12</TerminalNumber>
+						<TerminalNumber>B13</TerminalNumber>
+						<TerminalNumber>C10</TerminalNumber>
+						<TerminalNumber>C13</TerminalNumber>
+						<TerminalNumber>C5</TerminalNumber>
+						<TerminalNumber>C6</TerminalNumber>
+						<TerminalNumber>C7</TerminalNumber>
+						<TerminalNumber>C8</TerminalNumber>
+						<TerminalNumber>C9</TerminalNumber>
+						<TerminalNumber>D13</TerminalNumber>
+						<TerminalNumber>D14</TerminalNumber>
+						<TerminalNumber>D8</TerminalNumber>
+						<TerminalNumber>E12</TerminalNumber>
+						<TerminalNumber>E13</TerminalNumber>
+						<TerminalNumber>E8</TerminalNumber>
+						<TerminalNumber>F12</TerminalNumber>
+						<TerminalNumber>F13</TerminalNumber>
+						<TerminalNumber>F6</TerminalNumber>
+						<TerminalNumber>F7</TerminalNumber>
+						<TerminalNumber>F8</TerminalNumber>
+						<TerminalNumber>F9</TerminalNumber>
+						<TerminalNumber>G13</TerminalNumber>
+						<TerminalNumber>G14</TerminalNumber>
+						<TerminalNumber>G6</TerminalNumber>
+						<TerminalNumber>G7</TerminalNumber>
+						<TerminalNumber>G8</TerminalNumber>
+						<TerminalNumber>G9</TerminalNumber>
+						<TerminalNumber>H13</TerminalNumber>
+						<TerminalNumber>H14</TerminalNumber>
+						<TerminalNumber>H6</TerminalNumber>
+						<TerminalNumber>H7</TerminalNumber>
+						<TerminalNumber>H8</TerminalNumber>
+						<TerminalNumber>H9</TerminalNumber>
+						<TerminalNumber>J12</TerminalNumber>
+						<TerminalNumber>J13</TerminalNumber>
+						<TerminalNumber>J6</TerminalNumber>
+						<TerminalNumber>J7</TerminalNumber>
+						<TerminalNumber>J8</TerminalNumber>
+						<TerminalNumber>J9</TerminalNumber>
+						<TerminalNumber>K13</TerminalNumber>
+						<TerminalNumber>K8</TerminalNumber>
+						<TerminalNumber>L13</TerminalNumber>
+						<TerminalNumber>L14</TerminalNumber>
+						<TerminalNumber>L8</TerminalNumber>
+						<TerminalNumber>M10</TerminalNumber>
+						<TerminalNumber>M11</TerminalNumber>
+						<TerminalNumber>M12</TerminalNumber>
+						<TerminalNumber>M13</TerminalNumber>
+						<TerminalNumber>M5</TerminalNumber>
+						<TerminalNumber>M6</TerminalNumber>
+						<TerminalNumber>M7</TerminalNumber>
+						<TerminalNumber>M8</TerminalNumber>
+						<TerminalNumber>M9</TerminalNumber>
+						<TerminalNumber>N13</TerminalNumber>
+						<TerminalNumber>P13</TerminalNumber>
+						<TerminalNumber>P14</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 47</ID>
+						<TerminalName>IOUTAP</TerminalName>
+						<TerminalNumber>B14</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 48</ID>
+						<TerminalName>IOUTAN</TerminalName>
+						<TerminalNumber>C14</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 49</ID>
+						<TerminalName>IOUTBP</TerminalName>
+						<TerminalNumber>F14</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 50</ID>
+						<TerminalName>IOUTBN</TerminalName>
+						<TerminalNumber>E14</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 51</ID>
+						<TerminalName>IOUTCP</TerminalName>
+						<TerminalNumber>J14</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 52</ID>
+						<TerminalName>IOUTCN</TerminalName>
+						<TerminalNumber>K14</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 53</ID>
+						<TerminalName>IOUTDP</TerminalName>
+						<TerminalNumber>N14</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 54</ID>
+						<TerminalName>IOUTDN</TerminalName>
+						<TerminalNumber>M14</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 55</ID>
+						<TerminalName>IOVDD</TerminalName>
+						<TerminalNumber>D5</TerminalNumber>
+						<TerminalNumber>D6</TerminalNumber>
+						<TerminalNumber>G5</TerminalNumber>
+						<TerminalNumber>H5</TerminalNumber>
+						<TerminalNumber>L5</TerminalNumber>
+						<TerminalNumber>L6</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 56</ID>
+						<TerminalName>LPF</TerminalName>
+						<TerminalNumber>D12</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 57</ID>
+						<TerminalName>OSTRP</TerminalName>
+						<TerminalNumber>A9</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 58</ID>
+						<TerminalName>OSTRN</TerminalName>
+						<TerminalNumber>B9</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 59</ID>
+						<TerminalName>PARITYP</TerminalName>
+						<TerminalNumber>N5</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 60</ID>
+						<TerminalName>PARITYN</TerminalName>
+						<TerminalNumber>P5</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 61</ID>
+						<TerminalName>PLLAVDD</TerminalName>
+						<TerminalNumber>C11</TerminalNumber>
+						<TerminalNumber>D11</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 62</ID>
+						<TerminalName>SCLK</TerminalName>
+						<TerminalNumber>P9</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 63</ID>
+						<TerminalName>SDENB</TerminalName>
+						<TerminalNumber>P10</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 64</ID>
+						<TerminalName>SDIO</TerminalName>
+						<TerminalNumber>P11</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 65</ID>
+						<TerminalName>SDO</TerminalName>
+						<TerminalNumber>P12</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 66</ID>
+						<TerminalName>SLEEP</TerminalName>
+						<TerminalNumber>B8</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 67</ID>
+						<TerminalName>SYNCP</TerminalName>
+						<TerminalNumber>A5</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 68</ID>
+						<TerminalName>SYNCN</TerminalName>
+						<TerminalNumber>B5</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 69</ID>
+						<TerminalName>RESETB</TerminalName>
+						<TerminalNumber>N10</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 70</ID>
+						<TerminalName>TXENABLE</TerminalName>
+						<TerminalNumber>N9</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 71</ID>
+						<TerminalName>TESTMODE</TerminalName>
+						<TerminalNumber>A8</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 72</ID>
+						<TerminalName>VFUSE</TerminalName>
+						<TerminalNumber>D7</TerminalNumber>
+					</TerminalMap>
+					<TerminalMap>
+						<ID>Terminal Map ID 73</ID>
+						<TerminalNumber>A6</TerminalNumber>
+						<TerminalNumber>A7</TerminalNumber>
+						<TerminalNumber>B6</TerminalNumber>
+						<TerminalNumber>B7</TerminalNumber>
+						<TerminalNumber>C3</TerminalNumber>
+						<TerminalNumber>C4</TerminalNumber>
+						<TerminalNumber>D3</TerminalNumber>
+						<TerminalNumber>D4</TerminalNumber>
+						<TerminalNumber>E3</TerminalNumber>
+						<TerminalNumber>E4</TerminalNumber>
+						<TerminalNumber>F3</TerminalNumber>
+						<TerminalNumber>F4</TerminalNumber>
+						<TerminalNumber>G3</TerminalNumber>
+						<TerminalNumber>G4</TerminalNumber>
+						<TerminalNumber>H3</TerminalNumber>
+						<TerminalNumber>H4</TerminalNumber>
+						<TerminalNumber>J3</TerminalNumber>
+						<TerminalNumber>J4</TerminalNumber>
+						<TerminalNumber>K12</TerminalNumber>
+						<TerminalNumber>K3</TerminalNumber>
+						<TerminalNumber>K4</TerminalNumber>
+						<TerminalNumber>L11</TerminalNumber>
+						<TerminalNumber>L12</TerminalNumber>
+						<TerminalNumber>L3</TerminalNumber>
+						<TerminalNumber>L4</TerminalNumber>
+						<TerminalNumber>L7</TerminalNumber>
+						<TerminalNumber>M3</TerminalNumber>
+						<TerminalNumber>M4</TerminalNumber>
+						<TerminalNumber>N11</TerminalNumber>
+						<TerminalNumber>N6</TerminalNumber>
+						<TerminalNumber>N7</TerminalNumber>
+						<TerminalNumber>N8</TerminalNumber>
+						<TerminalNumber>P6</TerminalNumber>
+						<TerminalNumber>P7</TerminalNumber>
+						<TerminalNumber>P8</TerminalNumber>
+					</TerminalMap>
+				</PackageTerminalMap>
+			</Mapping>
+		</Mapping-Array>
+	</ElectricalSection>
+	<EnvironmentalSection>
+		<EnvironmentalDeclarationFamily-Array>
+			<EnvironmentalDeclaration>
+				<ID>Environmental Declaration ID 1</ID>
+				<LeadFree>Yes</LeadFree>
+				<RoHsCompliance>Yes</RoHsCompliance>
+			</EnvironmentalDeclaration>
+		</EnvironmentalDeclarationFamily-Array>
+	</EnvironmentalSection>
+	<PackageSection>
+		<Package-Array>
+			<Package>
+				<ID>Package ID 1</ID>
+				<DescriptiveDesignation>P-BGA-B196_I0p8-R12p1x12p1Z1p4-T0p45</DescriptiveDesignation>
+				<ManufacturerPackageCode>ZAY196</ManufacturerPackageCode>
+				<Package-bodyMaterial>P</Package-bodyMaterial>
+				<PackageTerminalPosition>
+					<Bottom/>
+				</PackageTerminalPosition>
+				<PackageOutlineStyle>
+					<GridArray/>
+				</PackageOutlineStyle>
+				<PackageTerminalCode>
+					<Ball>
+						<Collapsing/>
+					</Ball>
+				</PackageTerminalCode>
+				<PackageMountingPreparation>
+					<StraightMounted/>
+				</PackageMountingPreparation>
+				<PackageBodyDirection>
+					<Horizontal/>
+				</PackageBodyDirection>
+				<ExtendedTerminalCount>196</ExtendedTerminalCount>
+				<TerminalCount>196</TerminalCount>
+				<DeletedTerminalCount>0</DeletedTerminalCount>
+				<MissingTerminalCount>0</MissingTerminalCount>
+				<DatasheetUOM>mm</DatasheetUOM>
+				<DimensionUOM>mm</DimensionUOM>
+				<Pitch>I0p8</Pitch>
+				<PackageShape>
+					<ID>Package Shape ID 1</ID>
+					<Rectangle>
+						<Dimension1>
+							<Minimum>11.9</Minimum>
+							<Maximum>12.1</Maximum>
+						</Dimension1>
+						<Dimension2>
+							<Minimum>11.9</Minimum>
+							<Maximum>12.1</Maximum>
+						</Dimension2>
+						<Angle>0</Angle>
+					</Rectangle>
+					<ShapeCenter>
+						<x>0</x>
+						<y>0</y>
+					</ShapeCenter>
+				</PackageShape>
+				<PartHeight>
+					<Maximum>1.4</Maximum>
+				</PartHeight>
+				<ClearanceRegion-Array>
+					<StandOff>
+						<Minimum>0.35</Minimum>
+						<Maximum>0.45</Maximum>
+					</StandOff>
+				</ClearanceRegion-Array>
+				<TerminalGroups>
+					<TerminalGroup-Array>
+						<TerminalGroup>
+							<ID>Terminal Group ID 1</ID>
+							<TerminalPosition>
+								<Bottom>
+									<Matrix>
+										<FullMatrix/>
+									</Matrix>
+								</Bottom>
+							</TerminalPosition>
+							<Terminal>
+								<Ball>
+									<Collapsing/>
+								</Ball>
+							</Terminal>
+							<TerminalMaterial>
+								<J-Std-609e-code>e1</J-Std-609e-code>
+							</TerminalMaterial>
+							<Coplanarity>0.12</Coplanarity>
+							<TerminalFunction>
+								<Electrical/>
+							</TerminalFunction>
+							<TerminalLocation>
+								<StandardArray>
+									<nx>14</nx>
+									<ny>14</ny>
+									<dx>
+										<Nominal>0.8</Nominal>
+										<PitchToleranceCumulative>false</PitchToleranceCumulative>
+									</dx>
+									<dy>
+										<Nominal>0.8</Nominal>
+										<PitchToleranceCumulative>false</PitchToleranceCumulative>
+									</dy>
+									<Angle>0</Angle>
+								</StandardArray>
+							</TerminalLocation>
+							<TerminalShape>
+								<Terminal/>
+								<TerminalHeight>
+									<Minimum>0.35</Minimum>
+									<Maximum>0.45</Maximum>
+								</TerminalHeight>
+								<Circle>
+									<Diameter>
+										<Minimum>0.45</Minimum>
+										<Maximum>0.55</Maximum>
+									</Diameter>
+								</Circle>
+							</TerminalShape>
+							<TerminalGroupToBodyRelationship>
+								<X-Offset>
+									<X26-RightSideOfBody-to-CenterOfRightTerminalContactArea>
+										<Nominal>-0.8</Nominal>
+									</X26-RightSideOfBody-to-CenterOfRightTerminalContactArea>
+								</X-Offset>
+								<Y-Offset>
+									<Y26-FrontSideOfBody-to-CenterOfFrontTerminalContactArea>
+										<Nominal>-0.8</Nominal>
+									</Y26-FrontSideOfBody-to-CenterOfFrontTerminalContactArea>
+								</Y-Offset>
+							</TerminalGroupToBodyRelationship>
+						</TerminalGroup>
+					</TerminalGroup-Array>
+					<TerminalDetail-Array>
+						<TerminalNumberPattern>
+							<ID>Terminal Number Pattern ID 1</ID>
+							<FirstTerminalLocation>
+								<TerminalGroupID>Terminal Group ID 1</TerminalGroupID>
+								<LocationRelative-to-PackageCenter>
+									<Description>Southwest</Description>
+								</LocationRelative-to-PackageCenter>
+							</FirstTerminalLocation>
+							<Grid>
+								<Row>
+									<AlphabeticalSequence>
+										<Character>A</Character>
+										<Character>B</Character>
+										<Character>C</Character>
+										<Character>D</Character>
+										<Character>E</Character>
+										<Character>F</Character>
+										<Character>G</Character>
+										<Character>H</Character>
+										<Character>J</Character>
+										<Character>K</Character>
+										<Character>L</Character>
+										<Character>M</Character>
+										<Character>N</Character>
+										<Character>P</Character>
+									</AlphabeticalSequence>
+									<Left-to-Right/>
+								</Row>
+								<Column>
+									<NumericalSequence/>
+									<Back-to-Front/>
+								</Column>
+							</Grid>
+						</TerminalNumberPattern>
+					</TerminalDetail-Array>
+				</TerminalGroups>
+			</Package>
+		</Package-Array>
+	</PackageSection>
+	<ThermalSection>
+		<Thermal-Array>
+			<ThermalFamily>
+				<ID>Thermal Family ID 1</ID>
+				<ThermalData>
+					<TemperatureRating-Array>
+						<TemperatureRating>
+							<Name>
+								<Other>Junction-to-ambient thermal resistance</Other>
+							</Name>
+							<Temperature>
+								<Nominal>37.6</Nominal>
+							</Temperature>
+						</TemperatureRating>
+						<TemperatureRating>
+							<Name>
+								<Other>Junction-to-case (top) thermal resistance </Other>
+							</Name>
+							<Temperature>
+								<Nominal>6.8</Nominal>
+							</Temperature>
+						</TemperatureRating>
+						<TemperatureRating>
+							<Name>
+								<Other>Junction-to-board thermal resistance</Other>
+							</Name>
+							<Temperature>
+								<Nominal>16.8</Nominal>
+							</Temperature>
+						</TemperatureRating>
+						<TemperatureRating>
+							<Name>
+								<Other>Junction-to-top characterization parameter</Other>
+							</Name>
+							<Temperature>
+								<Nominal>0.2</Nominal>
+							</Temperature>
+						</TemperatureRating>
+						<TemperatureRating>
+							<Name>
+								<Other>Junction-to-board characterization parameter</Other>
+							</Name>
+							<Temperature>
+								<Nominal>16.4</Nominal>
+							</Temperature>
+						</TemperatureRating>
+					</TemperatureRating-Array>
+					<UnitsForThermalData>
+						<DimensionUOM>nm</DimensionUOM>
+						<NodalMassUOM>g</NodalMassUOM>
+						<PowerUOM>W</PowerUOM>
+						<SpecificHeatCapacityUOM>J/kgK</SpecificHeatCapacityUOM>
+						<ThermalCapacitanceUOM>J/K</ThermalCapacitanceUOM>
+						<ThermalResistanceUOM>DegC/W</ThermalResistanceUOM>
+						<TemperatureUOM>DegC</TemperatureUOM>
+					</UnitsForThermalData>
+				</ThermalData>
+			</ThermalFamily>
+		</Thermal-Array>
+	</ThermalSection>
+</JEP30:PartModel>

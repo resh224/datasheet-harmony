@@ -1,0 +1,33 @@
+1. **Vocabulary Mapping**:
+   - All terms are mapped to a `jedec:` IRI namespace, aligning with JEP30-P100G's structure.
+   - `TerminalPosition` is the root type, with subtypes like `Quad` or `Radial` defined as linked nodes (`@type": "@id"`).
+
+2. **Terminal Position Types**:
+   - Enumerates configurations from §5.14.1.1 (e.g., `BottomUpperPosition`, `DualPosition`).
+   - Each type is a unique IRI for semantic clarity.
+
+3. **Coordinates**:
+   - Represented as a string (e.g., `"x=2.5mm, y=3.0mm"`) but could be structured further if needed.
+
+
+NOTES
+
+Uses Quad configuration from Table 3 (Position Prefix Q) [JESD30O p64]
+2. Includes coordinate system per JEP30-D10PointXYType [p161]
+3. Implements terminal group ID referencing from §5.14.1.6
+4. Incorporates location codes (NE = Northeast) from Table 28 [p161]
+5. First terminal location alignment per §5.14.3.2
+
+The structure follows:
+- Position type from TerminalPositionType enumeration
+- Coordinate system using x/y values with UOM
+- Terminal group relationships as defined in §5.14.1.6
+- Location references per JEP30-P100G Figure 15 peripheral grid array
+
+This JSON implements the terminal position requirements specified in JEP30-P100G §5.14.1.1 while maintaining compatibility with JESD30O package designation rules.
+
+XML
+Included in this directory is an example of a **JEP30-P100G compliant XML** fragment for a terminal position, based on the structure and enumerations found in Section 5.14.1.1 (Terminal Position), Section 5.14.3.2 (First Terminal Location), and related tables (such as Table 28 for location codes and Table 31 for grid patterns) of the JEP30-P100G specification[2].
+
+This example models a quad terminal group with two terminal positions, their coordinates, and the first terminal location, as would be found within the `<PackageTerminalGroups>` section of a JEDEC PartModel Package XML
+

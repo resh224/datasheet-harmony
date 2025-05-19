@@ -1,0 +1,11 @@
+{
+    "@context": "http://jedec.org/contexts/jep30-m101.jsonld",
+    "@id": "http://example.com/parts/SN74LVC1G00",
+    "jep30:ManufacturerPartNumber": "SN74LVC1G00",
+    "jep30:Manufacturer": "Texas Instruments",
+    "jep30:Footprint": {
+        "jep30:FootprintName": "SOT-23-5",
+        "jep30:Dimensions": { ...
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "jedec": "http://jedec.org/ns/jep30/p100g#",
+        "TerminalPosition": {
+            "@id": "jedec:TerminalPosition",
+            "@type": "@id"
+        },
+        "BottomUpperPosition": {
+            "@id": "jedec:BottomUpperPosition",
+            "@type": "@id"
+        },
+        "DualPosition": {
+            "@id": "jedec:DualPosition",
+            "@type": "@id"
+        },
+        "DiagonalCorner": {
+            "@id": "jedec:DiagonalCorner",
+            "@type": "@id"
+        },
+        "Quad": {
+            "@id": "jedec:Quad",
+            "@type": "@id"
+        },
+        "Radial": {
+            "@id": "jedec:Radial",
+            "@type": "@id"
+        },
+        "SinglePosition": {
+            "@id": "jedec:SinglePosition",
+            "@type": "@id"
+        },
+        "TriplePosition": {
+            "@id": "jedec:TriplePosition",
+            "@type": "@id"
+        },
+        "coordinates": {
+            "@id": "jedec:coordinates",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        }
+    },
+    "@type": "TerminalPosition",
+    "positionType": "Quad",
+    "coordinates": "x=2.5mm, y=3.0mm"
+}

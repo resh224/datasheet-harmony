@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "schema": "https://schema.org/",
+        "protected": true,
+        "name": {
+            "@id": "schema:name",
+            "protected": true
+        },
+        "manufacturer": {
+            "@id": "schema:manufacturer",
+            "protected": true
+        },
+        "mpn": {
+            "@id": "schema:mpn",
+            "protected": true
+        },
+        "description": "schema:description"
+    },
+    "@type": "schema:Product",
+    "name": "DAC3484 Quad-Channel 16-Bit DAC",
+    "mpn": "DAC3484IZAYR",
+    "manufacturer": {
+        "@type": "schema:Organization",
+        "name": "Texas Instruments"
+    },
+    "description": "1.25 GSPS Digital-to-Analog Converter"
+}

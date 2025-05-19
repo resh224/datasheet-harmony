@@ -1,0 +1,10 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "spdxId": "SPDXRef-DOCUMENT",
+    "type": "SpdxDocument",
+    "name": "Example SPDX Document",
+    "creationInfo": {
+        "created": "2025-05-19T15:00:00Z",
+        "creator": "Person: Jane Doe"
+    }
+}

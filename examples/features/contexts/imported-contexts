@@ -1,0 +1,78 @@
+{
+  "@context": "https://example.org/contexts/semiconductor-extended.jsonld",
+  "@graph": [
+    {
+      "@id": "urn:ti:DAC3484IZAYR",
+      "@type": "Part",
+      "name": "DAC3484 Quad-Channel 16-Bit Digital-to-Analog Converter",
+      "manufacturer": {
+        "@id": "urn:manufacturer:ti",
+        "name": "Texas Instruments",
+        "manufacturerCode": "TI"
+      },
+      "partNumber": "DAC3484IZAYR",
+      "orderablePartNumber": "DAC3484IZAYR",
+      "datasheet": "http://www.ti.com/lit/gpn/dac3484",
+      "Package": {
+        "packageType": "NFBGA-196",
+        "packageCode": "ZAY196",
+        "terminalCount": 196,
+        "dimensions": {
+          "length": "12.1mm",
+          "width": "12.1mm",
+          "height": "1.4mm"
+        }
+      },
+      "ElectricalParameter": [
+        {
+          "parameter": "SupplyVoltage",
+          "minValue": "3.135V",
+          "maxValue": "3.465V",
+          "unit": "V"
+        },
+        {
+          "parameter": "OperatingTemperature",
+          "minValue": "-40",
+          "maxValue": "85",
+          "unit": "°C"
+        },
+        {
+          "parameter": "OutputCurrent",
+          "nominal": "20mA",
+          "maxValue": "30mA"
+        }
+      ],
+      "Terminal": [
+        {
+          "terminalName": "VDD",
+          "terminalNumber": ["A1", "B2"],
+          "description": "3.3V Analog Supply"
+        },
+        {
+          "terminalName": "CLKIN_P",
+          "terminalNumber": "C3",
+          "description": "Differential Clock Input (Positive)"
+        }
+      ],
+      "Compliance": {
+        "IEC61000-4-2": "Level 4",
+        "ESDProtection": "±8kV Contact, ±15kV Air"
+      },
+      "ipc:assemblyFile": {
+        "@id": "http://ti.com/assembly/DAC3484_IPC-2581.xml",
+        "@type": "ipc:PCBAssembly",
+        "ipc:revision": "B",
+        "ipc:material": "FR-4"
+      }
+    },
+    {
+      "@id": "urn:spdx:bom/DAC3484",
+      "@type": "spdx:BOM",
+      "spdx:components": [
+        "urn:ti:DAC3484IZAYR",
+        "urn:passive:0402-10μF"
+      ],
+      "spdx:supplier": "urn:manufacturer:ti"
+    }
+  ]
+}

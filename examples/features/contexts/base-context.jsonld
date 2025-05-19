@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "http://schema.org/",
+    "jedec": "http://jedec.org/ns/JEP30#",
+    "ipc": "http://ipc.org/ns/IPC-2581#",
+    "ieee": "http://standards.ieee.org/",
+    "spdx": "https://spdx.org/rdf/terms#",
+    "Manufacturer": "schema:Organization",
+    "manufacturerCode": "jedec:manufacturerCode",
+    "Part": "jedec:Part",
+    "partNumber": "schema:productID",
+    "orderablePartNumber": "jedec:orderablePartNumber",
+    "Package": "jedec:Package",
+    "packageType": "jedec:packageType",
+    "terminalCount": "jedec:terminalCount",
+    "ElectricalParameter": "jedec:ElectricalParameters",
+    "parameter": {
+      "@id": "jedec:parameter",
+      "@type": "@id"
+    },
+    "Terminal": "jedec:Terminal",
+    "terminalName": "jedec:terminalName",
+    "Compliance": "ieee:Compliance",
+    "IEC61000-4-2": "ieee:ESDCompliance"
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "https://example.com/contexts/jedec-context.jsonld",
+        {"unit": "vcc:unit"}  
+    ],
+    "@type": "PartModel",
+    "PartDetails": {
+        "ManufacturerPartNumber": "XYZ-1234",
+        "ElectricalCharacteristics": {
+            "VCC": {
+                "minVoltage": 1.8,
+                "maxVoltage": 3.3,
+                "unit": "V"
+            }
+        },
+        "TerminalPositions": [ {
+                "@type": "TerminalPosition",
+                "coordinates": "x=2.5mm, y=3.0mm",
+                "AssemblySpecification": {
+                "id": "ipc:2581-2023",
+                "layerStackup": {
+                    "conductiveLayers": 12,
+                    "dielectricMaterial": "FR-4"
+                }
+                }
+            }
+        ]
+    },
+    "DocumentProvenance": {
+    "SchemaVersion": "JEP30-M100-1.2",
+    "Generated": "2025-04-15T14:30:00Z"
+    }
+}

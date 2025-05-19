@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "jedec": "http://jedec.org/ns/jep30/",
+        "ipc": "https://ipc.org/ns/ipc-2581#",
+        "vcc": "http://example.org/vocab/vcc#",
+        "PartModel": "jedec:PartModel",
+        "ElectricalCharacteristics": "jedec:ElectricalCharacteristics",
+        "AssemblySpecification": "ipc:AssemblyProcess",
+        "minVoltage": {"@id": "vcc:min", "@type": "xsd:decimal"},
+        "maxVoltage": {"@id": "vcc:max", "@type": "xsd:decimal"},
+        "compliance": "jedec:ComplianceStandard",
+        "documentProvenance": "jedec:DocumentProvenance"
+    },
+    "@type": "PartModel",
+    "PartDetails": [
+        {
+            "ManufacturerPartNumber": "XYZ-1234",
+            "ElectricalCharacteristics": {
+                "VCC": {
+                    "minVoltage": 1.8,
+                    "maxVoltage": 3.3,
+                    "unit": "V"
+                }
+            },
+            "Association": [
+                {
+                    "@type": "AssemblySpecification",
+                    "id": "ipc:2581-2023",
+                    "assemblySpecification": "Section 4.5.2 - High Density Interconnect Requirements",
+                    "compliance": "IPC-2581D"
+                }
+                ]
+        }
+    ],
+    "GeneratedECADModelsSection": {
+        "ComplianceToPartModelSchemaVersion": "JEP30-M100-1.2",
+        "DocumentProvenance": {
+            "Author": "ProvenanceChain Inc.",
+            "RevisionDate": "2025-04-15",
+            "DigitalSignature": "sha256-abc123..."
+        },
+        "PCBAssemblyModels": [
+            {
+                "id": "ipc:2581-2023-HDI",
+                "referencesStandard": "ipc:2581",
+                "LayerStackup": {
+                    "ConductiveLayers": 12,
+                    "DielectricMaterial": "FR-4",
+                    "ImpedanceControl": "50Ω ±10%"
+                },
+                "AssemblyProcess": {
+                    "ComponentPlacementAccuracy": "±0.025mm",
+                    "ReflowProfile": "Pb-Free SAC305"
+                }
+            }
+        ]
+    }
+}

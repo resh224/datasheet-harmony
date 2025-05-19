@@ -1,0 +1,134 @@
+{
+    "@context": {
+        "schema": "http://schema.org/",
+        "jedec": "http://jedec.org/ns/JEP30#",
+        "ipc": "http://ipc.org/ns/IPC-2581#",
+        "id": "@id",
+        "type": "@type",
+        "name": "schema:name",
+        "description": "schema:description",
+        "manufacturer": "schema:manufacturer",
+        "partNumber": "jedec:partNumber",
+        "package": "jedec:package",
+        "datasheet": "schema:url",
+        "electricalParameters": "jedec:electricalParameters",
+        "terminal": "jedec:terminal",
+        "differentialPair": "jedec:differentialPair",
+        "logicalGroup": "jedec:logicalGroup",
+        "pcbAssemblyFile": {
+            "@id": "ipc:pcbAssemblyFile",
+            "@type": "@id"
+        },
+        "fileFormat": "schema:encodingFormat"
+    },
+    "@graph": [
+        {
+            "id": "urn:ti:dac3484",
+            "type": "schema:Product",
+            "name": "DAC3484 Quad-Channel, 16-Bit, 1.25 GSPS Digital-to-Analog Converter (DAC)",
+            "manufacturer": {
+                "id": "urn:manufacturer:ti",
+                "name": "TEXAS INSTRUMENTS"
+            },
+            "partNumber": [
+                "DAC3484IZAY",
+                "DAC3484IZAYR"
+            ],
+            "description": "The DAC3484 is a very low power, high dynamic range, quad-channel, 16-bit digital-to-analog converter (DAC) with a sample rate as high as 1.25 GSPS.",
+            "datasheet": "http://www.ti.com/lit/gpn/dac3484",
+            "package": {
+                "packageType": "NFBGA",
+                "packageCode": "ZAY196",
+                "terminalCount": 196,
+                "dimensions": {
+                    "length_mm": 12.1,
+                    "width_mm": 12.1,
+                    "height_mm": 1.4
+                }
+            },
+            "pcbAssemblyFile": {
+                "id": "http://example.com/pcb/assembly/DAC3484_assembly.xml",
+                "fileFormat": "application/xml; standard=IPC-2581"
+            },
+            "electricalParameters": [
+                {
+                    "symbol": "IOUT_FS",
+                    "symbolDescription": "Full-scale output current",
+                    "value": {
+                        "nominal": 20,
+                        "min": 10,
+                        "max": 30,
+                        "unit": "mA"
+                    }
+                }
+                // ... additional parameters
+            ],
+            "terminal": [
+                {
+                    "terminalName": "AVDD",
+                    "terminalNumber": [
+                        "D10",
+                        "E11",
+                        "F11",
+                        "G11",
+                        "H11",
+                        "J11",
+                        "K11",
+                        "L10"
+                    ],
+                    "description": "Analog supply voltage (3.3V)"
+                }
+                // ... additional terminals
+            ],
+            "differentialPair": [
+                {
+                    "name": "D0",
+                    "positiveTerminal": "D0P",
+                    "negativeTerminal": "D0N",
+                    "description": "LVDS DDR data bits 0-15 with 100Ω internal termination"
+                }
+                // ... additional pairs
+            ],
+            "logicalGroup": [
+                {
+                    "name": "Data Bus",
+                    "terminals": [
+                        "D0P",
+                        "D0N",
+                        "D1P",
+                        "D1N",
+                        "D2P",
+                        "D2N",
+                        "D3P",
+                        "D3N",
+                        "D4P",
+                        "D4N",
+                        "D5P",
+                        "D5N",
+                        "D6P",
+                        "D6N",
+                        "D7P",
+                        "D7N",
+                        "D8P",
+                        "D8N",
+                        "D9P",
+                        "D9N",
+                        "D10P",
+                        "D10N",
+                        "D11P",
+                        "D11N",
+                        "D12P",
+                        "D12N",
+                        "D13P",
+                        "D13N",
+                        "D14P",
+                        "D14N",
+                        "D15P",
+                        "D15N"
+                    ]
+                }
+                // ... additional groups
+            ]
+        }
+    ]
+}

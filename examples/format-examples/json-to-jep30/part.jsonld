@@ -1,0 +1,11 @@
+{
+    "@context": {
+        "jep30": "http://jedec.org/standards/jep30/",
+        "partNumber": "jep30:ManufacturerPartNumber",
+        "manufacturer": "jep30:Manufacturer",
+        "footprint": {
+            "@id": "jep30:Footprint",
+            "@type": "@id"
+        }
+    }
+}

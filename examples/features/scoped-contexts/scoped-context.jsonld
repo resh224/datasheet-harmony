@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "dap": "http://api.com/ns/dap#",
+        "schema": "https://schema.org/",
+        "id": "@id",
+        "type": "@type",
+        "location": {
+            "@id": "schema:location",
+            "@type": "@id"
+        },
+        "sensors": {
+            "@id": "dap:sensors",
+            "@context": { // Default sensor context
+                "reading": "dap:reading",
+                "unit": "dap:unit",
+                "threshold": {
+          "@

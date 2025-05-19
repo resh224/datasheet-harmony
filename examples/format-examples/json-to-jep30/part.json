@@ -1,0 +1,8 @@
+{
+    "partNumber": "SN74LVC1G00",
+    "manufacturer": "Texas Instruments",
+    "footprint": {
+        "name": "SOT-23-5",
+        "dimensions": { ... }
+    }
+}

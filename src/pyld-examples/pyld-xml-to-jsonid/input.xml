@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<PartModel xmlns="http://jedec.org/ns/JEP30#" ComplianceToPartModelSchemaVersion="1.0" PartModelContentRevision="1.0">
+  <Manufacturer-Array>
+    <Manufacturer ManufacturerID="ACME-001">
+      <Name>ACME Components Inc.</Name>
+    </Manufacturer>
+  </Manufacturer-Array>
+  <ManufacturerPartNumber-Array>
+    <ManufacturerPartNumber PartNumber="C0805C106K4RACTU">
+      <BasePartNumber>C0805C106K4RACTU</BasePartNumber>
+    </ManufacturerPartNumber>
+  </ManufacturerPartNumber-Array>
+  <PartDetails-Array>
+    <PartDetails>
+      <Part xmlns="http://jedec.org/ns/JEP30#" PartType="Capacitor" Status="Active">
+        <Name>SMT Ceramic Chip Capacitor</Name>
+        <Description>10uF, 16V, X7R, 0805, ±10% tolerance</Description>
+        <Package>
+          <PackageCode>0805</PackageCode>
+        </Package>
+        <ElectricalCharacteristics>
+          <Capacitance Value="10" Unit="uF" Tolerance="±10%"/>
+          <VoltageRating Value="16" Unit="V"/>
+        </ElectricalCharacteristics>
+      </Part>
+    </PartDetails>
+  </PartDetails-Array>
+</PartModel>

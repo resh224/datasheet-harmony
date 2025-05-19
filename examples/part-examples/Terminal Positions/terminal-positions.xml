@@ -1,0 +1,24 @@
+<PackageTerminalGroups>
+    <TerminalGroup>
+        <TerminalGroupID>TG-1A</TerminalGroupID>
+        <TerminalPosition>
+            <PositionType>Quad</PositionType>
+            <Coordinates>
+                <PointXY>
+                    <X>2.50</X>
+                    <Y>3.00</Y>
+                    <UOM>mm</UOM>
+                </PointXY>
+                <PointXY>
+                    <X>-2.50</X>
+                    <Y>3.00</Y>
+                    <UOM>mm</UOM>
+                </PointXY>
+            </Coordinates>
+            <LocationCode>NE</LocationCode>
+            <FirstTerminalLocation>
+                <RelativeToPackageCenter>Front-Right</RelativeToPackageCenter>
+            </FirstTerminalLocation>
+        </TerminalPosition>
+    </TerminalGroup>
+</PackageTerminalGroups>

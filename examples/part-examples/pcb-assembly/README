@@ -1,0 +1,17 @@
+Modular Context
+	•	The context is split into a separate file for reusability
+	•	Uses JSON-LD 1.1’s ability to combine multiple contexts 
+	2.	External Reference
+	•	Main document references context via URL `https://example.com/contexts/jedec-context.jsonld`
+	•	Local context additions (unit) are merged with external context 
+	3.	Semantic Linking
+	•	`PartModel` and `TerminalPosition` inherit JEDEC semantics
+	•	`AssemblySpecification` links to IPC-2581 standard 
+	4.	Type Coercion
+	•	Voltage values use `xsd:decimal` type as defined in context
+	•	Coordinates follow JEP30-D10PointXYType pattern 
+Implementation Notes:
+	•	The external context should be served with `application/ld+json` media type
+	•	JSON-LD processors will automatically dereference and cache the context
+	•	Combines JEP30 electrical specs with IPC-2581 assembly requirements 
+This structure implements JSON-LD 1.1’s advanced context features while maintaining compatibility with JEDEC and IPC standards documentation.

@@ -1,0 +1,89 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@type": "SpdxDocument",
+    "spdxId": "http://example.com/ns#SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "@type": "CreationInfo",
+        "created": "2025-05-14T14:20:00Z",
+        "creators": [
+            "Tool: Example Charger Inc. Datasheet Generator 1.0",
+            "Organization: Example Charger Inc."
+        ]
+    },
+    "profileConformance": [
+        "Core",
+        "Software",
+        "Security"
+    ],
+    "elements": [
+        {
+            "@type": "Manufacturer",
+            "spdxId": "http://example.com/ns#SPDXRef-Manufacturer1",
+            "name": "Example Charger Inc.",
+            "location": {
+                "@type": "Address",
+                "country": "US"
+            }
+        },
+        {
+            "@type": "Part",
+            "spdxId": "http://example.com/ns#SPDXRef-BAT-CHG-5V2A-01",
+            "manufacturer": "http://example.com/ns#SPDXRef-Manufacturer1",
+            "partNumber": {
+                "orderablePartNumber": "BAT-CHG-5V2A-01",
+                "series": [
+                    {
+                        "code": "VOLTAGE",
+                        "value": "5V"
+                    },
+                    {
+                        "code": "CURRENT",
+                        "value": "2A"
+                    }
+                ]
+            },
+            "thermalData": {
+                "@type": "ThermalFamily",
+                "temperatureRating": {
+                    "min": "-40°C",
+                    "max": "85°C"
+                },
+                "metrics": [
+                    {
+                        "@type": "ThetaMetric",
+                        "name": "Junction-to-Ambient",
+                        "value": "23°C/W",
+                        "testCondition": {
+                            "environment": "Natural Convection",
+                            "airVelocity": "0 m/s"
+                        }
+                    }
+                ],
+                "networkModels": [
+                    {
+                        "@type": "TwoResistorModel",
+                        "rthJunctionCase": "1.5°C/W",
+                        "rthCaseAmbient": "21.5°C/W"
+                    }
+                ]
+            }
+        }
+    ],
+    "relationships": [
+        {
+            "@type": "Relationship",
+            "relationshipType": "DESCRIBES",
+            "from": "http://example.com/ns#SPDXRef-DOCUMENT",
+            "to": [
+                "http://example.com/ns#SPDXRef-BAT-CHG-5V2A-01"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "@type": "ExternalReference",
+            "referenceType": "Documentation",
+            "locator": "https://examplecharger.com/BAT-CHG-5V2A-01.pdf"
+        }
+    ]
+}

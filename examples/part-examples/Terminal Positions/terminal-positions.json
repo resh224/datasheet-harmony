@@ -1,0 +1,34 @@
+{
+    "@context": {
+        "jedec": "http://jedec.org/ns/jep30/p100g#",
+        "TerminalPosition": "jedec:TerminalPosition",
+        "Quad": "jedec:QuadConfigurationType",
+        "coordinates": {
+            "@id": "jedec:coordinates",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "terminalGroupID": "jedec:terminalGroupID"
+    },
+    "@type": "TerminalPosition",
+    "positionType": "Quad",
+    "terminalGroupID": "TG1",
+    "coordinates": [
+        {
+            "@type": "jedec:PointXYType",
+            "x": 2.5,
+            "y": 3.0,
+            "uom": "mm"
+        },
+        {
+            "@type": "jedec:PointXYType",
+            "x": -2.5,
+            "y": 3.0,
+            "uom": "mm"
+        }
+    ],
+    "locationCode": "NE",
+    "firstTerminalLocation": {
+        "@type": "jedec:FirstTerminalLocationType",
+        "relativeToCenter": "Front-Right"
+    }
+}

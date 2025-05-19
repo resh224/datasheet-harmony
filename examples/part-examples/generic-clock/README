@@ -1,0 +1,11 @@
+Sample Digital Datasheet JSON file for a clock signal, structured to be compliant with JEDEC JEP30-E100G Digital Datasheet standards. 
+This example focuses on a generic digital clock (CLK) signal, as typically found in memory interfaces. The JSON structure includes key elements such as signal classification, terminal mapping, electrical characteristics, and references, following the conventions and enumerations described in JEP30-E100G
+
+Key Features:
+•	TerminalDetails: Describes the clock pin, its electrical output type (push-pull), and any series resistor for signal integrity.
+•	TerminalFunctionArray: Classifies the terminal as a digital clock, with possible logic states (high, low, high-impedance).
+•	Reference: Specifies voltage references for the clock (VDD and GND).
+•	TimingCharacteristics: Lists clock frequency range and key timing parameters, as defined in JESD84-A441.
+•	MappingStandardTerminalName: Uses the standardized terminal name "Clock".
+•	References: Provides traceability to the relevant JEDEC standards sections used for classification and timing.
+This structure can be extended to include additional attributes (such as jitter, duty cycle, or more detailed electrical characteristics) as required by the specific clock implementation or as specified in the full digital datasheet standard.

@@ -1,0 +1,109 @@
+{
+  "@context": "DAC3484-context.jsonld",
+  "@graph": [
+    {
+      "id": "urn:ti:dac3484",
+      "type": "schema:Product",
+      "name": "DAC3484 Quad-Channel, 16-Bit, 1.25 GSPS Digital-to-Analog Converter (DAC)",
+      "manufacturer": {
+        "id": "urn:manufacturer:ti",
+        "name": "TEXAS INSTRUMENTS",
+        "manufacturerCode": "TI"
+      },
+      "basePartNumber": "DAC3484",
+      "partNumber": [
+        "DAC3484IZAY",
+        "DAC3484IZAYR"
+      ],
+      "orderablePartNumber": [
+        "DAC3484IZAY",
+        "DAC3484IZAYR"
+      ],
+      "description": "The DAC3484 is a very low power, high dynamic range, quad-channel, 16-bit digital-to-analog converter (DAC) with a sample rate as high as 1.25 GSPS. The device includes features that simplify the design of complex transmit architectures: 2x to 16x digital interpolation filters, independent complex mixers, high-performance low jitter clock multiplier, and digital Quadrature Modulator Correction (QMC). Digital data is input through a 16-bit LVDS data bus. The device is characterized for operation over the industrial temperature range of -40°C to 85°C and is available in 88-pin WQFN or 196-ball NFBGA packages.",
+      "datasheet": "http://www.ti.com/lit/gpn/dac3484",
+      "package": {
+        "packageType": "NFBGA",
+        "packageCode": "ZAY196",
+        "terminalCount": 196,
+        "dimensions": {
+          "length_mm": 12.1,
+          "width_mm": 12.1,
+          "height_mm": 1.4
+        }
+      },
+      "electricalParameters": [
+        {
+          "symbol": "IOUT_FS",
+          "symbolDescription": "Full-scale output current",
+          "value": { "nominal": 20, "min": 10, "max": 30, "unit": "mA" },
+          "testCondition": "Nominal supplies"
+        },
+        {
+          "symbol": "TA",
+          "symbolDescription": "Operating temperature range",
+          "value": { "min": -40, "max": 85, "unit": "°C" }
+        },
+        {
+          "symbol": "P",
+          "symbolDescription": "Power dissipation",
+          "value": { "nominal": 1270, "max": 1320, "unit": "mW" },
+          "testCondition": "IOUT_FS=20mA, f_DAC=1.25GSPS"
+        }
+        // (Add all other parameter sets as needed)
+      ],
+      "terminal": [
+        {
+          "terminalName": "AVDD",
+          "terminalNumber": ["D10", "E11", "F11", "G11", "H11", "J11", "K11", "L10"],
+          "description": "Analog supply voltage (3.3V)"
+        },
+        {
+          "terminalName": "ALARM",
+          "terminalNumber": ["N12"],
+          "description": "CMOS output for alarm condition (active low)"
+        },
+        {
+          "terminalName": "D0P",
+          "terminalNumber": "A1",
+          "description": "LVDS positive input data bit 0"
+        },
+        {
+          "terminalName": "D0N",
+          "terminalNumber": "A2",
+          "description": "LVDS negative input data bit 0"
+        }
+        // (Add all other terminals up to 196 as needed)
+      ],
+      "differentialPair": [
+        {
+          "name": "D0",
+          "positiveTerminal": "D0P",
+          "negativeTerminal": "D0N",
+          "differentialDescription": "LVDS DDR data bits 0-15 with 100Ω internal termination"
+        },
+        {
+          "name": "DATACLK",
+          "positiveTerminal": "CLKP",
+          "negativeTerminal": "CLKN",
+          "differentialDescription": "Differential data clock input"
+        }
+        // (Add all differential pairs as needed)
+      ],
+      "logicalGroup": [
+        {
+          "name": "Data Bus",
+          "terminals": [
+            "D0P", "D0N", "D1P", "D1N", "D2P", "D2N", "D3P", "D3N", "D4P", "D4N",
+            "D5P", "D5N", "D6P", "D6N", "D7P", "D7N", "D8P", "D8N", "D9P", "D9N",
+            "D10P", "D10N", "D11P", "D11N", "D12P", "D12N", "D13P", "D13N", "D14P", "D14N", "D15P", "D15N"
+          ]
+        },
+        {
+          "name": "Clock Network",
+          "terminals": ["CLKP", "CLKN", "SYNCP", "SYNCN"]
+        }
+        // (Add other logical groups as needed)
+      ]
+    }
+  ]
+}

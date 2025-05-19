@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@import": "https://example.org/contexts/semiconductor-base.jsonld",
+    "datasheet": "schema:url",
+    "dimensions": "jedec:dimensions",
+    "spdx:BOM": "spdx:Bom",
+    "spdx:components": "spdx:hasComponent",
+    "spdx:supplier": "spdx:supplier",
+    "ipc:assemblyFile": "ipc:assemblyFile"
+  }
+}

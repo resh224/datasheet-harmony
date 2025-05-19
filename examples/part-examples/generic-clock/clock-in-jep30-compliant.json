@@ -1,0 +1,91 @@
+{
+    "PartModel": {
+        "PartNumber": "GEN-CLOCK-001",
+        "Description": "Generic Digital Clock Signal",
+        "ElectricalSection": {
+            "ElectricalParameters": [
+                {
+                    "TerminalDetails": [
+                        {
+                            "TerminalName": "CLK",
+                            "TerminalNumber": "1",
+                            "Properties": [
+                                {
+                                    "OutputCircuit": {
+                                        "Type": "Unipolar",
+                                        "UnipolarOutputCircuitType": "Push-Pull"
+                                    }
+                                },
+                                {
+                                    "SeriesComponent": {
+                                        "Type": "Resistance",
+                                        "Value": "33",
+                                        "ValueUOM": "Ohm"
+                                    }
+                                }
+                            ],
+                            "TerminalFunctionArray": [
+                                {
+                                    "DigitalFunction": {
+                                        "SignalClassification": "Clock",
+                                        "Description": "Primary clock input for synchronous logic"
+                                    },
+                                    "DigitalTerminalState": [
+                                        "HighState",
+                                        "LowState",
+                                        "HighImpedanceState"
+                                    ]
+                                }
+                            ],
+                            "Reference": {
+                                "GroundReference-TerminalName": "GND",
+                                "PositiveReference-TerminalName": "VDD"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "TerminalGrouping": [
+                {
+                    "SameSupplyPotentialGroup": [
+                        "CLK",
+                        "GND"
+                    ]
+                }
+            ]
+        },
+        "TimingCharacteristics": {
+            "ClockFrequency": {
+                "Min": "0",
+                "Max": "52",
+                "Unit": "MHz"
+            },
+            "InputSetUpTime": {
+                "Min": "3",
+                "Unit": "ns"
+            },
+            "InputHoldTime": {
+                "Min": "3",
+                "Unit": "ns"
+            },
+            "OutputDelayTime": {
+                "Min": "1.5",
+                "Max": "7",
+                "Unit": "ns"
+            }
+        },
+        "MappingStandardTerminalName": "Clock",
+        "References": [
+            {
+                "Standard": "JEDEC JEP30-E100G",
+                "Section": "4.5.2.2.1",
+                "Description": "Digital Function Signal Classification"
+            },
+            {
+                "Standard": "JEDEC JESD84-A441",
+                "Section": "12.7, 12.8",
+                "Description": "Clock timing parameters for memory interfaces"
+            }
+        ]
+    }
+}

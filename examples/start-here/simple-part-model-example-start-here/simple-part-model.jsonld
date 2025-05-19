@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "pm": "https://example.org/jedec/partmodel#",
+        "schema": "https://schema.org/",
+        "Manufacturer": "pm:Manufacturer",
+        "ManufacturerPartNumber": "pm:ManufacturerPartNumber",
+        "Part": "pm:Part",
+        "name": "schema:name",
+        "description": "schema:description",
+        "mpn": "schema:mpn",
+        "manufacturer": "schema:manufacturer",
+        "partType": "pm:partType",
+        "package": "pm:package",
+        "status": "pm:status"
+    },
+    "@type": "Part",
+    "name": "SMT Ceramic Chip Capacitor",
+    "description": "10uF, 16V, X7R, 0805, ±10% tolerance",
+    "mpn": "C0805C106K4RACTU",
+    "manufacturer": {
+        "@type": "Manufacturer",
+        "name": "ACME Components Inc.",
+        "manufacturerId": "ACME-001"
+    },
+    "partType": "Capacitor",
+    "package": "0805",
+    "status": "Active"
+}

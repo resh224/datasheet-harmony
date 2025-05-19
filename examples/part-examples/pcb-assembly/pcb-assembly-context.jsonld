@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "jedec": "http://jedec.org/ns/jep30/",
+        "ipc": "https://ipc.org/ns/ipc-2581#",
+        "vcc": "http://example.org/vocab/vcc#",
+
+        "PartModel": "jedec:PartModel",
+        "ElectricalCharacteristics": "jedec:ElectricalCharacteristics",
+        "TerminalPosition": "jedec:TerminalPosition",
+
+        "minVoltage": {"@id": "vcc:min", "@type": "xsd:decimal"},
+        "maxVoltage": {"@id": "vcc:max", "@type": "xsd:decimal"},
+        "coordinates": "jedec:coordinates",
+
+        "AssemblySpecification": {
+            "@id": "ipc:AssemblyProcess",
+            "@context": {
+                "layerStackup": "ipc:LayerStackup",
+                "conductiveLayers": "ipc:conductiveLayers"
+            }
+        }
+    }
+}

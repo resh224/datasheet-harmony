@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+        {
+            "schema": "http://schema.org/",
+            "jedec": "http://jedec.org/ns/JEP30#",
+            "ipc": "http://ipc.org/ns/IPC-2581#",
+            "pcbAssemblyFile": {
+                "@id": "ipc:pcbAssemblyFile",
+                "@type": "@id"
+            },
+            "fileFormat": "schema:encodingFormat"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "urn:ti:dac3484",
+            "@type": "schema:Product",
+            "name": "DAC3484 Quad-Channel, 16-Bit, 1.25 GSPS Digital-to-Analog Converter (DAC)",
+            "manufacturer": {
+                "@id": "urn:manufacturer:ti",
+                "name": "TEXAS INSTRUMENTS"
+            },
+            "partNumber": [
+                "DAC3484IZAY",
+                "DAC3484IZAYR"
+            ],
+            "description": "The DAC3484 is a very low power, high dynamic range, quad-channel, 16-bit digital-to-analog converter (DAC) with a sample rate as high as 1.25 GSPS.",
+            "datasheet": "http://www.ti.com/lit/gpn/dac3484",
+            "package": {
+                "packageType": "NFBGA",
+                "packageCode": "ZAY196",
+                "terminalCount": 196,
+                "dimensions": {
+                    "length_mm": 12.1,
+                    "width_mm": 12.1,
+                    "height_mm": 1.4
+                }
+            },
+            "pcbAssemblyFile": {
+                "@id": "http://example.com/pcb/assembly/DAC3484_assembly.xml",
+                "fileFormat": "application/xml; standard=IPC-2581"
+            }
+            // ... (other properties such as electricalParameters, terminal, etc.)
+        },
+        {
+            "@id": "urn:spdx:bom:dac3484",
+            "@type": "spdx:Bom",
+            "name": "SPDX BOM for DAC3484 Assembly",
+            "description": "Bill of Materials for Texas Instruments DAC3484 including PCB assembly and supporting artifacts.",
+            "creationInfo": {
+                "created": "2025-05-19T14:14:00Z",
+                "createdBy": [
+                    {
+                        "@type": "spdx:Organization",
+                        "name": "Texas Instruments"
+                    }
+                ],
+                "specVersion": "3.0.1"
+            },
+            "element": [
+                {
+                    "@id": "urn:ti:dac3484"
+                },
+                {
+                    "@id": "http://example.com/pcb/assembly/DAC3484_assembly.xml"
+                }
+            ],
+            "externalRef": [
+                {
+                    "externalRefType": "sbom",
+                    "locator": "http://example.com/spdx/dac3484-bom.spdx.jsonld",
+                    "contentType": "application/spdx+json"
+                }
+            ]
+        }
+    ]
+}

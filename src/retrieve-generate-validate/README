@@ -1,0 +1,29 @@
+This example demonstrates a standards-based workflow for handling a JEDEC JEP30-compliant semiconductor part datasheet using JSON-LD and JSON Schema validation. Here’s a step-by-step summary of its operation:
+
+- **Retrieval of JEDEC JEP30 Datasheet:**  
+  The program begins by simulating the retrieval of a JEDEC JEP30-compliant datasheet for a USB retimer part. In a real-world scenario, this would involve fetching data from a JEDEC repository. For demonstration, the datasheet is represented as a Python dictionary structured according to JEDEC JEP30 conventions.
+
+- **Generation of JSON-LD Context:**  
+  A JSON-LD context is created to assign semantic meaning to each field in the datasheet. This context maps datasheet properties to standardized URIs, enhancing interoperability and machine-readability in accordance with linked data principles.
+
+- **Creation of JSON-LD Datasheet:**  
+  The program combines the context and the part data into a single JSON-LD document. This enriched datasheet can be interpreted both as regular JSON and as linked data.
+
+- **JSON-LD Validation Using pyld:**  
+  The program uses the `pyld` library to expand and compact the JSON-LD datasheet. This process checks the structural and contextual validity of the JSON-LD, ensuring that the document conforms to linked data standards.
+
+- **Generation of JSON Schema:**  
+  A JSON Schema is programmatically generated based on the structure of the datasheet and its context. This schema defines the expected data types, required fields, and nested structures, providing a blueprint for validation.
+
+- **Validation Against JSON Schema:**  
+  The program validates the JSON-LD datasheet (excluding the context) against the generated JSON Schema using the `jsonschema` library. This step ensures the datasheet’s structure and content meet the specified requirements.
+
+- **Artifact Output:**  
+  Finally, the program prints all key artifacts for the user:  
+  - The JSON-LD context  
+  - The JSON-LD datasheet  
+  - The expanded JSON-LD (from pyld)  
+  - The generated JSON Schema  
+  - The compacted JSON-LD (from pyld)  
+
+This workflow demonstrates how to create, semantically enrich, and validate a machine-readable electronic datasheet for a semiconductor part using open standards and Python libraries.

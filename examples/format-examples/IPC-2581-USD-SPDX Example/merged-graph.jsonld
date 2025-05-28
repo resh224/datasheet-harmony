@@ -1,0 +1,170 @@
+{
+    "@context": {
+        "ipc": "http://ipc.org/2581#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "usd": "http://usd.org/schema#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "Design": "ipc:Design",
+        "Stackup": "ipc:Stackup",
+        "Layer": "ipc:Layer",
+        "Components": "ipc:Components",
+        "Component": "ipc:Component",
+        "Netlist": "ipc:Netlist",
+        "Net": "ipc:Net",
+        "FabricationDrawings": "ipc:FabricationDrawings",
+        "AssemblyInstructions": "ipc:AssemblyInstructions",
+        "PickAndPlace": "ipc:PickAndPlace",
+        "Soldering": "ipc:Soldering",
+        "SpecialInstructions": "ipc:SpecialInstructions",
+        "SPDXVersion": "spdx:specVersion",
+        "DataLicense": "spdx:dataLicense",
+        "DocumentName": "spdx:name",
+        "DocumentNamespace": "spdx:namespace",
+        "Creator": "spdx:creator",
+        "Created": "spdx:created",
+        "PackageName": "spdx:packageName",
+        "PackageVersion": "spdx:packageVersion",
+        "PackageSupplier": "spdx:packageSupplier",
+        "PackageDownloadLocation": "spdx:packageDownloadLocation",
+        "PackageLicenseDeclared": "spdx:packageLicenseDeclared",
+        "PackageCopyrightText": "spdx:packageCopyrightText",
+        "Files": "spdx:hasFile",
+        "FileName": "spdx:fileName",
+        "SPDXID": "spdx:SPDXID",
+        "FileChecksum": "spdx:checksum",
+        "LicenseConcluded": "spdx:licenseConcluded",
+        "USDStage": "usd:Stage",
+        "USDComponent": "usd:Component",
+        "USDStep": "usd:Step",
+        "ManufacturingSteps": "usd:ManufacturingSteps",
+        "Transform": "usd:Transform"
+    },
+    "@graph": [
+        {
+            "@id": "urn:acme:pcb:acme1234",
+            "Design": {
+                "Stackup": [
+                    {
+                        "Layer": {
+                            "name": "Top",
+                            "type": "Signal",
+                            "thickness": 0.035
+                        }
+                    },
+                    {
+                        "Layer": {
+                            "name": "Core",
+                            "type": "Dielectric",
+                            "thickness": 0.18
+                        }
+                    },
+                    {
+                        "Layer": {
+                            "name": "Bottom",
+                            "type": "Signal",
+                            "thickness": 0.035
+                        }
+                    }
+                ],
+                "Components": [
+                    {
+                        "Component": {
+                            "ref": "U1",
+                            "name": "ACME1234",
+                            "value": "PMIC",
+                            "footprint": "QFN32",
+                            "Datasheet": "https://acme.com/datasheets/ACME1234.pdf",
+                            "BOMReference": "BOM001"
+                        }
+                    }
+                ],
+                "Netlist": [
+                    {
+                        "Net": {
+                            "name": "VDD",
+                            "pins": [
+                                "U1.1",
+                                "U1.2"
+                            ]
+                        }
+                    },
+                    {
+                        "Net": {
+                            "name": "GND",
+                            "pins": [
+                                "U1.15",
+                                "U1.16"
+                            ]
+                        }
+                    }
+                ],
+                "FabricationDrawings": {
+                    "DrillDrawing": "drill.drl",
+                    "SolderMaskDrawing": "mask_top.gbr"
+                },
+                "AssemblyInstructions": {
+                    "PickAndPlace": "pickplace.csv",
+                    "Soldering": {
+                        "type": "Reflow"
+                    },
+                    "SpecialInstructions": "Use lead-free solder paste. Place U1 with orientation dot facing Pin 1 marker."
+                }
+            }
+        },
+        {
+            "@id": "urn:acme:firmware:acme1234",
+            "SPDXVersion": "SPDX-2.2",
+            "DataLicense": "CC0-1.0",
+            "SPDXID": "SPDXRef-DOCUMENT",
+            "DocumentName": "ACME1234-Firmware",
+            "DocumentNamespace": "http://spdx.org/spdxdocs/acme1234-firmware-20250528",
+            "Creator": "Organization: ACME Semiconductor, Inc.",
+            "Created": "2025-05-28T12:00:00Z",
+            "PackageName": "ACME1234-Firmware",
+            "PackageVersion": "1.0.2",
+            "PackageSupplier": "Organization: ACME Semiconductor, Inc.",
+            "PackageDownloadLocation": "https://acme.com/firmware/acme1234-v1.0.2.bin",
+            "PackageLicenseDeclared": "MIT",
+            "PackageCopyrightText": "Copyright 2025 ACME Semiconductor, Inc.",
+            "Files": [
+                {
+                    "FileName": "/src/pmic_control.c",
+                    "SPDXID": "SPDXRef-File1",
+                    "FileChecksum": "SHA1:2fd4e1c67a2d28fced849ee1bb76e7391b93eb12",
+                    "LicenseConcluded": "MIT"
+                }
+            ]
+        },
+        {
+            "@id": "urn:acme:usd:acme1234",
+            "USDStage": "ACME1234_Assembly.usda",
+            "USDComponent": [
+                {
+                    "name": "PCB",
+                    "type": "Mesh",
+                    "path": "/Assembly/PCB"
+                },
+                {
+                    "name": "IC_ACME1234",
+                    "type": "Mesh",
+                    "path": "/Assembly/IC_ACME1234",
+                    "Transform": {
+                        "Translate": [
+                            10,
+                            5,
+                            0.8
+                        ]
+                    }
+                }
+            ],
+            "ManufacturingSteps": [
+                "Apply solder paste to PCB at QFN32 footprint",
+                "Pick ACME1234 IC from feeder",
+                "Place IC at (10, 5, 0.8) with Pin 1 aligned",
+                "Perform AOI (Automated Optical Inspection) after placement",
+                "Reflow solder at 245°C, profile: 60s ramp, 90s soak, 30s peak",
+                "Final electrical test: VDD/GND continuity, I2C communication check"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "@context": "https://example.com/context/ipc-spdx-usd.jsonld",
+    "Design": {
+        "Stackup": [
+            {
+                "Layer": {
+                    "name": "Top",
+                    "type": "Signal",
+                    "thickness": 0.035
+                }
+            },
+            {
+                "Layer": {
+                    "name": "Core",
+                    "type": "Dielectric",
+                    "thickness": 0.18
+                }
+            },
+            {
+                "Layer": {
+                    "name": "Bottom",
+                    "type": "Signal",
+                    "thickness": 0.035
+                }
+            }
+        ],
+        "Components": [
+            {
+                "Component": {
+                    "ref": "U1",
+                    "name": "ACME1234",
+                    "value": "PMIC",
+                    "footprint": "QFN32",
+                    "Datasheet": "https://acme.com/datasheets/ACME1234.pdf",
+                    "BOMReference": "BOM001"
+                }
+            }
+        ],
+        "Netlist": [
+            {
+                "Net": {
+                    "name": "VDD",
+                    "pins": [
+                        "U1.1",
+                        "U1.2"
+                    ]
+                }
+            },
+            {
+                "Net": {
+                    "name": "GND",
+                    "pins": [
+                        "U1.15",
+                        "U1.16"
+                    ]
+                }
+            }
+        ],
+        "FabricationDrawings": {
+            "DrillDrawing": "drill.drl",
+            "SolderMaskDrawing": "mask_top.gbr"
+        },
+        "AssemblyInstructions": {
+            "PickAndPlace": "pickplace.csv",
+            "Soldering": {
+                "type": "Reflow"
+            },
+            "SpecialInstructions": "Use lead-free solder paste. Place U1 with orientation dot facing Pin 1 marker."
+        }
+    }
+}

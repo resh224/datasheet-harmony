@@ -1,0 +1,24 @@
+{
+    "@context": "https://example.com/context/ipc-spdx-usd.jsonld",
+    "SPDXVersion": "SPDX-2.2",
+    "DataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "DocumentName": "ACME1234-Firmware",
+    "DocumentNamespace": "http://spdx.org/spdxdocs/acme1234-firmware-20250528",
+    "Creator": "Organization: ACME Semiconductor, Inc.",
+    "Created": "2025-05-28T12:00:00Z",
+    "PackageName": "ACME1234-Firmware",
+    "PackageVersion": "1.0.2",
+    "PackageSupplier": "Organization: ACME Semiconductor, Inc.",
+    "PackageDownloadLocation": "https://acme.com/firmware/acme1234-v1.0.2.bin",
+    "PackageLicenseDeclared": "MIT",
+    "PackageCopyrightText": "Copyright 2025 ACME Semiconductor, Inc.",
+    "Files": [
+        {
+            "FileName": "/src/pmic_control.c",
+            "SPDXID": "SPDXRef-File1",
+            "FileChecksum": "SHA1:2fd4e1c67a2d28fced849ee1bb76e7391b93eb12",
+            "LicenseConcluded": "MIT"
+        }
+    ]
+}

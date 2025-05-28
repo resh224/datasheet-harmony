@@ -1,0 +1,31 @@
+{
+    "@context": "https://example.com/context/ipc-spdx-usd.jsonld",
+    "USDStage": "ACME1234_Assembly.usda",
+    "USDComponent": [
+        {
+            "name": "PCB",
+            "type": "Mesh",
+            "path": "/Assembly/PCB"
+        },
+        {
+            "name": "IC_ACME1234",
+            "type": "Mesh",
+            "path": "/Assembly/IC_ACME1234",
+            "Transform": {
+                "Translate": [
+                    10,
+                    5,
+                    0.8
+                ]
+            }
+        }
+    ],
+    "ManufacturingSteps": [
+        "Apply solder paste to PCB at QFN32 footprint",
+        "Pick ACME1234 IC from feeder",
+        "Place IC at (10, 5, 0.8) with Pin 1 aligned",
+        "Perform AOI (Automated Optical Inspection) after placement",
+        "Reflow solder at 245°C, profile: 60s ramp, 90s soak, 30s peak",
+        "Final electrical test: VDD/GND continuity, I2C communication check"
+    ]
+}

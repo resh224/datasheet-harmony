@@ -31,3 +31,5 @@ JEDEC JEP30 part model that references the SPICE model
 ### sn74lvc1g04.json
 
 References elements in the SPICE model
+
+[Back](../README.md)

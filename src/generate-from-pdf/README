@@ -22,3 +22,4 @@ This Python program demonstrates the end-to-end process of generating and valida
 
 This approach provides a standards-based, machine-readable, and semantically rich electronic datasheet for the DAC3484, demonstrating a practical application of JEDEC JEP30 and JSON-LD in the context of electronic component documentation.
 
+[Back](../README)

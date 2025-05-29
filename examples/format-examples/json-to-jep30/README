@@ -1,15 +1,21 @@
-Considerations
+# Overview
+
+This example provides information on mapping a JEDEC JEP30 Part Model to EDS
+
+## Considerations
 •	Context Mapping: A shared @context must define JEP30 terms (e.g., jep30:Footprint) to ensure consistency.
 •	Data Validation: Tools like JSON-LD processors and SHACL (Shapes Constraint Language) validate structural and semantic compliance with JEP30.
 •	Modularity: JEP30’s GeneratedECAD-ModelsSection can be represented as separate JSON-LD graphs for footprints, symbols, and terminal mappings.
  
-4. Benefits of JSON-LD
+## Benefits of JSON-LD
 •	Backward Compatibility: Existing JSON tools work seamlessly.
 •	Linked Data Integration: JEP30 part models become part of the Semantic Web, enabling federated queries.
 •	Evolvability: New JEP30 schema versions can be adopted by updating the @context without breaking existing clients.
  
-5. Tools & Standards
+## Tools & Standards
 •	JSON-LD Playground: Test transformations between JSON and JSON-LD.
 •	JEP30-M101 Schema: Defines XML structure for validation.
 •	RDF Converters: Tools like rdf2jsonld bridge XML-based JEP30 and JSON-LD.
 By leveraging JSON-LD’s semantic capabilities, translation between JSON datasheets and JEP30 achieves full fidelity while maintaining compatibility with existing infrastructure.
+
+[Back](../README.md)

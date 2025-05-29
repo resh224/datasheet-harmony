@@ -1,0 +1,7 @@
+<SimulationModel>
+  <spice:Model>spice/sn74lvc1g04.lib</spice:Model>
+  <TerminalDetails>
+    <TerminalMapID>A</TerminalMapID>
+    <SignalDirection>Input</SignalDirection>
+  </TerminalDetails>
+</SimulationModel>

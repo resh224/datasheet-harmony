@@ -1,3 +1,5 @@
+## Battery Charger Example Notes
+
 1.	SPDX 3.0.1 Context: Uses official SPDX JSON-LD context for semantic interoperability
 2.	Core Profile Compliance: Includes mandatory creationInfo and spdxId fields
 3.	Thermal Data Modeling: Implements JEP30-T100B thermal schema with:
@@ -6,3 +8,5 @@ o	2-resistor model per JESD15-1
 4.	Supply Chain Tracing: Manufacturer linkage through SPDX relationships
 5.	Machine-Readable Units: Strict SI unit formatting as per JEP30-D10 schema
 This JSON-LD representation enables automated processing while maintaining human readability through SPDX's structured data approach.
+
+[Back](../README.md)

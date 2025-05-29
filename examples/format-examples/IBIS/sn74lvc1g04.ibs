@@ -1,0 +1,32 @@
+[IBIS Ver] 7.0
+[File Name] sn74lvc1g04.ibs
+[Component] SN74LVC1G04
+[Manufacturer] Texas Instruments
+[Package]
+  R_pkg 0.1
+  L_pkg 2nH
+  C_pkg 1pF
+
+[Pin] 1 2 3 4 5
+  Signal_name GND VCC Y A NC
+  Model_name GND POWER CMOS_INV CMOS_INV NC
+
+[Model] CMOS_INV
+  Model_type Input
+  Vinl = 0.8V
+  Vinh = 2.0V
+  C_comp 3.5pF
+  [Voltage Range] 3.3V 0V 3.3V
+  [Pullup]
+    Voltage = 3.3V
+    -3.3V  -24mA
+    0V      0mA
+    3.3V    0mA
+  [Pulldown]
+    Voltage = 3.3V
+    -3.3V  0mA
+    0V      0mA
+    3.3V    24mA
+  [Ramp]
+    dV/dt_r 1.5/0.5ns
+    dV/dt_f 1.5/0.5ns

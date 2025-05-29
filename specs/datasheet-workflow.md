@@ -104,3 +104,5 @@ validate(instance=json_datasheet, schema=json_schema)
 - [^4] JEP30-S100A.02.pdf (Supply Chain XML Requirements)
 
 This process ensures your electronic datasheet is interoperable, standards-compliant, and ready for use in digital supply chains and EDA tools.
+
+[Back](../README.md)

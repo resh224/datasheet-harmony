@@ -1,6 +1,8 @@
 # datasheet-harmony
 
-Datasheet Harmony repository.  Examples for JEDEC to EDS harmonization
+Datasheet Harmony repository.  Examples for JEDEC to EDS harmonization.
+
+There is a companion presentation that can be found [here](https://docs.google.com/presentation/d/1_vSyDRjIQBcxMcHcKep3Md2rfXnCFAAm/edit?usp=drive_link&ouid=106539798856027261866&rtpof=true&sd=true)
 
 ## Contents
 | Example       | Description   |

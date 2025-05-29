@@ -1,3 +1,8 @@
+## Overview
+Provides a jumping off point to JSON-LD
+
+## Important Terms
+
 •	@context:  Maps terms to IRIs for semantic clarity and interoperability. For example, schema:name refers to schema.org’s definition of "name", while pm: denotes a hypothetical JEDEC JEP30 PartModel namespace.
 
 •	@type:  Declares this object as a Part according to the PartModel.
@@ -20,3 +25,5 @@ The structure supports extension to include further details such as electrical, 
 
 •	Extensibility:
 JSON-LD enables the addition of digital signatures, references, and technical attributes as needed for compliance and interoperability.
+
+[Back](../../../README.md)

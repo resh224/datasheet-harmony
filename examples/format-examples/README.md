@@ -12,5 +12,5 @@ This folder contains examples that map different standards into a view of the pa
 | [EDS JSON to JEP30 Part Model](../format-examples/json-to-jep30/README) | Shows conversion from EDS JSON to JEP30 Part Model |
 | [SPICE](../format-examples/SPICE/README.md) | Shows integration of a SPICE model | 
 
-[Back](../format-examples/README.md)
+[Back](../../README.mdREADME.md)
 

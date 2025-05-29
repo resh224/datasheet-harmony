@@ -1,3 +1,6 @@
+## Overview
+This example demonstrates construction of a JSON-LD graph.
+
 - **Defines a Multi-Standard JSON-LD Context:**
   The program creates a JSON-LD context that integrates vocabulary from JEDEC JEP30 (electrical data), SPDX (BOM and licensing), and IPC-2581 (PCB assembly).
 - **Models an Embedded Controller Dataset:**
@@ -12,3 +15,5 @@
   Runs a SPARQL query to extract cross-standard relationships, such as linking components to their licenses and physical PCB layers.
 - **Demonstrates Interoperability:**
   Shows how data from JEDEC JEP30, SPDX, and IPC-2581 can be connected, queried, and traversed as a unified, standards-based knowledge graph for an electronic part.
+
+  [Back](../README)

@@ -1,0 +1,29 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "spice": "http://ti.com/spice#",
+        "eds": "http://canopen.org/eds#",
+        "jep30": "http://jedec.org/jep30#",
+        "Subcircuit": "spice:Subcircuit",
+        "VTO": {
+            "@id": "spice:ThresholdVoltage",
+            "@type": "eds:Params"
+        },
+        "KP": {
+            "@id": "spice:Transconductance",
+            "@type": "eds:Params"
+        },
+        "PMOS": "spice:PMOS_Model",
+        "NMOS": "spice:NMOS_Model",
+        "W": "spice:ChannelWidth",
+        "L": "spice:ChannelLength",
+        "R_pkg": {
+            "@id": "spice:PackageResistance",
+            "@type": "eds:Params/0x1005"
+        },
+        "L_pkg": {
+            "@id": "spice:PackageInductance",
+            "@type": "eds:Params/0x1006"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "ibis": "https://ibis.org/ns/ibis#",
+        "schema": "http://schema.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "Component": "ibis:Component",
+        "Manufacturer": {
+            "@id": "schema:manufacturer",
+            "@type": "schema:Organization"
+        },
+        "Model_type": "ibis:ModelType",
+        "C_comp": {
+            "@id": "ibis:DieCapacitance",
+            "@type": "schema:QuantitativeValue"
+        },
+        "Vinl": {
+            "@id": "ibis:InputLowThreshold",
+            "@type": "schema:QuantitativeValue"
+        },
+        "Vinh": {
+            "@id": "ibis:InputHighThreshold",
+            "@type": "schema:QuantitativeValue"
+        },
+        "Pullup": "ibis:PullupCharacteristic",
+        "Pulldown": "ibis:PulldownCharacteristic"
+    }
+}

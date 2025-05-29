@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "eds": "https://canopen.org/eds#",
+        "schema": "http://schema.org/",
+        "ibis": "https://ibis.org/ns/ibis#"
+    },
+    "@type": "eds:Device",
+    "schema:manufacturer": "Texas Instruments",
+    "schema:productName": "SN74LVC1G04",
+    "eds:params": [
+        {
+            "eds:index": "0x1000",
+            "eds:name": "InputThresholdLow",
+            "eds:dataType": "FLOAT32",
+            "eds:value": 0.8,
+            "eds:unit": "V",
+            "eds:description": "Vinl from IBIS [Model] CMOS_INV"
+        },
+        {
+            "eds:index": "0x1001",
+            "eds:name": "OutputDriveCurrent",
+            "eds:dataType": "UINT16",
+            "eds:value": 24,
+            "eds:unit": "mA",
+            "eds:description": "Pulldown current @3.3V"
+        }
+    ],
+    "eds:communicationObjects": [
+        {
+            "eds:index": "0x2000",
+            "eds:name": "LogicState",
+            "eds:dataType": "BOOLEAN",
+            "eds:access": "rw"
+        }
+    ],
+    "eds:package": {
+        "eds:resistance": 0.1,
+        "eds:inductance": "2nH",
+        "eds:capacitance": "1pF"
+    }
+}

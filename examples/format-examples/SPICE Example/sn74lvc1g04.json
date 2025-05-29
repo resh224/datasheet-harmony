@@ -1,0 +1,59 @@
+{
+    "@context": "spice-context.jsonld",
+    "@id": "eds:SN74LVC1G04",
+    "@type": "eds:Device",
+    "eds:DeviceInfo": {
+        "ProductName": "SN74LVC1G04",
+        "VendorName": "Texas Instruments",
+        "VendorID": "0x00000001",
+        "ProductCode": "0x74LVC1G04",
+        "RevisionNumber": "1.0"
+    },
+    "eds:Params": {
+        "0x1000": {
+            "@type": "eds:SupplyVoltage",
+            "value": 3.3,
+            "unit": "V"
+        },
+        "0x1001": {
+            "@type": "spice:VTO",
+            "value": 0.7,
+            "description": "NMOS Threshold Voltage"
+        },
+        "0x1003": {
+            "@type": "spice:KP",
+            "value": 120e-6,
+            "description": "NMOS Transconductance"
+        },
+        "0x1005": {
+            "@type": "spice:R_pkg",
+            "value": 0.1,
+            "unit": "Ω"
+        }
+    },
+    "eds:CommunicationObjects": {
+        "0x2000": {
+            "@type": "eds:DigitalInput",
+            "name": "A",
+            "dataType": "BOOLEAN",
+            "access": "rw"
+        },
+        "0x2001": {
+            "@type": "eds:DigitalOutput",
+            "name": "Y",
+            "dataType": "BOOLEAN",
+            "access": "ro"
+        }
+    },
+    "spice:Model": {
+        "@type": "spice:Subcircuit",
+        "name": "SN74LVC1G04",
+        "nodes": [
+            "A",
+            "Y",
+            "VCC",
+            "GND"
+        ],
+        "definition": ".SUBCKT SN74LVC1G04 A Y VCC GND\nM1 Y A VCC VCC PMOS W=2u L=0.1u\nM2 Y A GND GND NMOS W=1u L=0.1u\n.MODEL PMOS PMOS (VTO=-0.7 KP=40e-6)\n.MODEL NMOS NMOS (VTO=0.7 KP=120e-6)\n.ENDS"
+    }
+}

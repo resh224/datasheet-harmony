@@ -4,6 +4,7 @@ This folder contains examples that map different standards into a view of the pa
 
 ## Contents
 
-### IBIS
+| Example       | Description   |
+|:--------------|:--------------|
+| [IBIS](examples/format-examples/IPC-2581-USD-SPDX Example/README.md) | Shows integration of IBIS model with datasheet |
 
-Shows integration of IBIS model with datasheet.  Example is [here](../format-examples/IBIS Example/README.md "IBIS").

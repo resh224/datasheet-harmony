@@ -7,7 +7,7 @@ There is a companion presentation that can be found [here](https://docs.google.c
 ## Contents
 | Example       | Description   |
 |---------------|---------------|
-| [Start Here](examples/start-here/simple-part-model-example-start-here/README) | Start Here | 
+| [Start Here](examples/start-here/simple-part-model-example-start-here/README.md) | Start Here | 
 | [Specs](specs/datasheet-workflow.md/) | Workflow Overview | 
 | [Features](examples/features/) | Provides examples of contexts, vocabulatires, protected terms and scoped contexts | 
 | [Format Examples](examples/format-examples/README.md) | Provides examples of using or linking the standards to provide a view of a part or product |

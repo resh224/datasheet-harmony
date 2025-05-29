@@ -11,4 +11,4 @@ Contains example code on processing JEP30, JSON-LD documents
 | [Retrieve & Validate EDS](../src/retrieve-and-validate-eds/) | Shows how to retrieve an EDS and validate for correctness |
 | [Retrieve, Generate & Validate EDS](../src/retrieve-generate-validate/README) | Shows how to retrieve, generate and validate an EDS | 
 
-[Back](../../datasheet-harmony/README.md)
+[Back](../README.md)

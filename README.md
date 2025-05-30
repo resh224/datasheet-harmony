@@ -4,6 +4,14 @@ Datasheet Harmony repository.  Examples for JEDEC to EDS harmonization.
 
 There is a companion presentation that can be found [here](https://docs.google.com/presentation/d/1_vSyDRjIQBcxMcHcKep3Md2rfXnCFAAm/edit?usp=drive_link&ouid=106539798856027261866&rtpof=true&sd=true)
 
+
+# Install
+To configure this project to run the examples
+
+```python
+python -m pip install -r requirements.txt
+```
+
 ## Contents
 | Example       | Description   |
 |---------------|---------------|

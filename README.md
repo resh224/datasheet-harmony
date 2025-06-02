@@ -17,7 +17,7 @@ python -m pip install -r requirements.txt
 |---------------|---------------|
 | [Start Here](examples/start-here/simple-part-model-example-start-here/README.md) | Start Here | 
 | [Specs](specs/datasheet-workflow.md/) | Workflow Overview | 
-| [Features](examples/features/) | Provides examples of contexts, vocabulatires, protected terms and scoped contexts | 
+| [Features](examples/features/) | Provides examples of contexts, vocabularies, protected terms, scoped contexts, framing | 
 | [Format Examples](examples/format-examples/README.md) | Provides examples of using or linking the standards to provide a view of a part or product |
 | [Part Examples](examples/part-examples/README.md) | Part representation examples | 
 | [Python Examples](src/README.md) | Python examples of how to create, validate and use datasheets |

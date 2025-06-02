@@ -1,0 +1,35 @@
+{
+    "@context": { /* ... */},
+    "@id": "urn:example:part/XC7Z020-1CLG400C",
+    "@type": "SemiconductorPart",
+    "partNumber": "XC7Z020-1CLG400C",
+    "manufacturer": "Xilinx",
+    "hasPin": [
+        {
+            "@id": "urn:example:pin/XC7Z020-A13",
+            "@type": "PinSpecification",
+            "pinNumber": "A13",
+            "pinType": "IO",
+            "voltageRating": "3.3V",
+            "maxCurrent": "8mA"
+        },
+        {
+            "@id": "urn:example:pin/XC7Z020-E9",
+            "@type": "PinSpecification",
+            "pinNumber": "E9",
+            "pinType": "Power",
+            "voltageRating": "1.0V",
+            "maxCurrent": "2A"
+        }
+    ],
+    "softwareComponents": [
+        {
+            "@id": "urn:spdx:device/XC7Z020-firmware",
+            "@type": "spdx:Package",
+            "spdxID": "SPDXRef-Firmware-1",
+            "name": "Zynq-7000 Boot Firmware",
+            "version": "2023.2",
+            "licenseDeclared": "spdx:Proprietary"
+        }
+    ]
+}

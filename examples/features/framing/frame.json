@@ -1,0 +1,33 @@
+{
+    "@context": {
+        "sem": "http://example.org/semiconductor#",
+        "spdx": "https://spdx.org/rdf/3.0.1#",
+        "partNumber": "sem:partNumber",
+        "manufacturer": "sem:manufacturer",
+        "hasPin": {
+            "@id": "sem:hasPin",
+            "@container": "@list"
+        },
+        "pinNumber": "sem:pinNumber",
+        "pinType": "sem:pinType",
+        "voltageRating": "sem:voltageRating",
+        "maxCurrent": "sem:maxCurrent",
+        "softwareComponents": {
+            "@id": "spdx:relationship",
+            "@type": "@id"
+        },
+        "spdxID": "spdx:spdxId",
+        "licenseDeclared": "spdx:licenseDeclared"
+    },
+    "@type": "SemiconductorPart",
+    "hasPin": {
+        "@type": "PinSpecification"
+    },
+    "softwareComponents": {
+        "@type": "spdx:Package",
+        "spdxID": {},
+        "name": {},
+        "version": {},
+        "licenseDeclared": {}
+    }
+}
